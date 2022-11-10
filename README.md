@@ -38,7 +38,8 @@ The code provided in this repository can be readily used to optimize resource sc
   - Phase 2 of our method (prediction model construction) is implemented in optimizer/suggested.py, while the baseline method is implemented in optimizer/baseline.py
 
 
-  ### versions
+  ### Environment:
+  
   - conda create env -n seminar python=3.6
   - conda activate seminar
   - pip install -r requirements.txt
