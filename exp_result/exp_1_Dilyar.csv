@@ -1,0 +1,2 @@
+test_path, alpha, beta, total_weighted_sum, total_computation_time, total_pred_time, total_opti_time, self.precision*100 
+./sample_data/artificial/testlog_0806_1_90.csv, 0.3, 0.3, 4740, 44.522233963012695, 41.2156457901001, 3.3065881729125977, 0.0% 
