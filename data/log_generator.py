@@ -308,7 +308,7 @@ if __name__=='__main__':
 			if check == True:
 				if row.Activity=="Discharge":
 					removes.append(row.Index)
-					check=False
+					check=False #TODO: this code removes only second discharge row from the eventlog. Counterexample: 3 discharge. 
 				else:
 					check=False
 			else:
