@@ -1,0 +1,6 @@
+Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time 
+./sample_data/real/modi_BPI_2012_2012-03-01.csv, num_cases: 270, avg_weight: 5.670407560543414 
+ 5389, 19.500059127807617 
+Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time 
+./sample_data/real/modi_BPI_2012_2012-03-02.csv, num_cases: 244, avg_weight: 5.38787522071807 
+ 4311, 17.396199941635132 

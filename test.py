@@ -16,3 +16,4 @@ def read_act_res_mat(path="./sample_data/new_resource_0806_1.csv"):
 if __name__ == '__main__':
 	act_res_mat = read_act_res_mat('./sample_data/real/modi_BPI_2012_dropna_filter_act.csv');
 	print(act_res_mat)
+

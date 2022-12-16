@@ -12,7 +12,7 @@ data = {'fruits' : fruits,
         '2017'   : [3, 2, 4, 4, 5, 3]}
 
 p = figure(x_range=fruits, plot_height=250, title="Fruit Counts by Year",
-           toolbar_location=None, tools="hover", tooltips="$name @fruits: @$name")
+           toolbar_location=None, tools="hover")#, tooltips="$name @fruits: @$name")
 
 p.vbar_stack(years, x='fruits', width=0.9, color=colors, source=data,
              legend=[value(x) for x in years])

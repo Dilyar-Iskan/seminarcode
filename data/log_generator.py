@@ -97,15 +97,15 @@ class LogGenerator(object):
 		if self.mode == 'test':
 			if 'count' in kwargs:
 				self.count = kwargs['count']
-			interval = round(self.endpoint/(self.count/4)+0.5)
+			self.interval = round(self.endpoint/(self.count/4)+0.5)
 		else:
-			interval = 5
+			self.interval = 5
 
 		trace_count = self.extract_sequence()
 		trace_count = self.modify_sequence(trace_count)
 		act_res_mat= self.read_act_res_mat(res_path)
 
-		self.set_release_schedule(trace_count, endpoint, interval)
+		self.set_release_schedule(trace_count, endpoint, self.interval)
 		self.set_resource_info(act_res_mat)
 		self.ongoing_instance = list()
 		self.completes = list()
@@ -243,6 +243,8 @@ class LogGenerator(object):
 	"""
 
 	def simulate(self):
+		""" 
+		"""
 		t=0
 		while self.total_ongoing_instance != len(self.completes):
 		#for t in range(self.endpoint+6000):
@@ -253,6 +255,7 @@ class LogGenerator(object):
 			self.update_w_resource(t)
 			self.assign_res(t)
 			t+=1
+			# every 100 iterations print information
 			if t%100 == 0:
 				print('num_ongoing: {}, num_w_instance: {}, num_w_resource: {}, num_completes: {}'.format(len(self.ongoing_instance), len(self.w_instance), len(self.w_resource), len(self.completes)))
 		print("finish at {}".format(t-1))
@@ -281,7 +284,7 @@ class LogGenerator(object):
 			randint = np.random.randint(10)
 			randint+=1
 			eventlog.loc[eventlog['CASE_ID']==case, 'weight'] = randint
-		eventlog['Duration'] = eventlog['Complete']-eventlog['Start']
+		eventlog['Duration'] = eventlog['Complete']-eventlog['Start'] #TODO: add this part to prod event log
 		return eventlog
 
 
@@ -295,7 +298,9 @@ if __name__=='__main__':
 	# count_list = [120]
 	#testlog
 	for count in count_list:
+		# this line construct a log generator. #TODO: the end point is not quite useful since we see start and end with more than 180 while inspecting res_path.
 		Gen = LogGenerator(mode='test', endpoint=180, count=count, res_path="../sample_data/artificial/new_resource_{}.csv".format(resource_info_name))
+		# 
 		Gen.simulate()
 		#show(Gen.p)
 		eventlog = Gen.prod_eventlog(start_point='2018-12-01 00:00:00')

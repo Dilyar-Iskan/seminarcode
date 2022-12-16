@@ -6,7 +6,7 @@ from bokeh.plotting import figure, show, output_file
 #7567, 14917, 28393, 41371
 #x = np.linspace(0.1, 5, 80)
 
-<<<<<<< HEAD:visualize/eval_vis.py
+""" <<<<<<< HEAD:visualize/eval_vis.py
 perf_x = [40, 60, 80, 90, 100, 110, 120, 130, 140, 150, 160, 180]
 base_perf_y = [2223, 3427, 4651, 4837, 5765, 6651, 7213, 6564, 20386, 10025, ]
 sug_perf_y = [2364, 3652, 4625, 4780, 5623, 5821, 6763, 6713, 7671, 8563, 9015, ]
@@ -23,7 +23,7 @@ p.square(perf_x, base_perf_y, fill_color=None, legend="baseline", line_color='or
 p.line(perf_x, sug_perf_y, line_color='green', legend="suggested", line_width=2)
 p.circle(perf_x, sug_perf_y, fill_color=None, legend="suggested", line_color="green", size=6)
 p.yaxis.axis_label = "Total weighted completion time"
-
+ """
 """
 perf_x = [40, 60, 80, 100, 120]
 base_perf_y = [3427, 5934, 7648, 9260, 19907]
@@ -40,7 +40,7 @@ p.circle(perf_x, sug_perf_y, fill_color=None, legend="suggested", line_color="gr
 p.yaxis.axis_label = "Total weighted completion time"
 """
 
-"""
+# This part generates Fig. 7 b)
 time_x = [40, 60, 80, 100, 120]
 base_time_y = [10.6, 13.6, 16.4, 18.5, 21.6, 25.1]
 sug_time_y = [29.7, 42.2, 53.9, 65.6, 78.0]
@@ -63,7 +63,7 @@ p.line(time_x, sug_sche_time_y, line_color='green', line_dash='dotted', legend="
 p.triangle(time_x, sug_sche_time_y, fill_color=None, legend="suggested (for resource allocation)", line_color="green", size=6)
 
 p.yaxis.axis_label = "Time(secs)"
-"""
+############# 
 
 """
 p = figure(title="log axis example", y_axis_type="log",

@@ -7,5 +7,5 @@ test_path_array=("./sample_data/artificial/testlog_0806_1_90.csv")
 
 
 for test_path in "${test_path_array[@]}"; do
-	python3 baseline_main.py --mode 'test' --test_path $test_path --exp_name 'exp_1-baseline'
+	python3 baseline_main.py --mode 'test' --test_path $test_path --exp_name 'exp_1-baseline_Dilyar'
 done;
