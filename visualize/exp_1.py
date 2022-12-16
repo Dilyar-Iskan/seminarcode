@@ -3,7 +3,7 @@ import numpy as np
 from bokeh.plotting import figure, show, output_file
 
 #40, 60, 80, 100
-#7567, 14917, 28393, 41371
+#7567, 14917, 28393, 41371 #Fig. 7 a baseline
 #x = np.linspace(0.1, 5, 80)
 
 """ <<<<<<< HEAD:visualize/eval_vis.py
@@ -39,6 +39,7 @@ p.line(perf_x, sug_perf_y, line_color='green', legend="suggested", line_width=2)
 p.circle(perf_x, sug_perf_y, fill_color=None, legend="suggested", line_color="green", size=6)
 p.yaxis.axis_label = "Total weighted completion time"
 """
+
 
 # This part generates Fig. 7 b)
 time_x = [40, 60, 80, 100, 120]
