@@ -51,7 +51,7 @@ if __name__ == '__main__':
 	#split train and test
 	#train_df, test_df = FG.train_test_split(df, 0.7, 0.3)
 	train_df = df
-	test_df = train_df
+	test_df = train_df #TODO: test df is same as train df 
 	#create train
 	train_df = FG.order_csv_time(train_df)
 	train_df = FG.queue_level(train_df)

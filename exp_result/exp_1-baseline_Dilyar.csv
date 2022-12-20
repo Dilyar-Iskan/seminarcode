@@ -1,2 +1,2 @@
-Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
- 4843, 11.944649696350098 
+Baseline test_path, total_weighted_sum, total_computation_time 
+./sample_data/artificial/testlog_0806_1_90.csv, 4843, 11.715689420700073 

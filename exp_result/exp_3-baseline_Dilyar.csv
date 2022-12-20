@@ -1,6 +1,16 @@
 Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time 
-./sample_data/real/modi_BPI_2012_2012-03-01.csv, num_cases: 270, avg_weight: 5.670407560543414 
- 5389, 19.500059127807617 
-Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time 
-./sample_data/real/modi_BPI_2012_2012-03-02.csv, num_cases: 244, avg_weight: 5.38787522071807 
- 4311, 17.396199941635132 
+./sample_data/real/modi_BPI_2012_2012-03-01.csv, 270, 5.670407560543414, 5376, 19.438018798828125 
+./sample_data/real/modi_BPI_2012_2012-03-02.csv, 244, 5.38787522071807, 4318, 17.486570119857788 
+./sample_data/real/modi_BPI_2012_2012-03-03.csv, 197, 5.18646408839779, 2544, 12.029440641403198 
+./sample_data/real/modi_BPI_2012_2012-03-04.csv, 11, 6.242718446601942, 142, 4.1389853954315186 
+./sample_data/real/modi_BPI_2012_2012-03-05.csv, 141, 5.312338222605694, 2138, 10.323949337005615 
+./sample_data/real/modi_BPI_2012_2012-03-06.csv, 182, 5.343420126671358, 3287, 13.253261089324951 
+./sample_data/real/modi_BPI_2012_2012-03-07.csv, 100, 5.427771556550952, 1756, 9.543246746063232 
+./sample_data/real/modi_BPI_2012_2012-03-08.csv, 155, 5.568690095846645, 2561, 12.227290630340576 
+./sample_data/real/modi_BPI_2012_2012-03-09.csv, 188, 5.7306350314026515, 3641, 13.672687292098999 
+./sample_data/real/modi_BPI_2012_2012-03-10.csv, 110, 4.991080277502478, 1598, 8.989752769470215 
+./sample_data/real/modi_BPI_2012_2012-03-11.csv, 14, 4.671328671328672, 188, 4.4686338901519775 
+./sample_data/real/modi_BPI_2012_2012-03-12.csv, 95, 5.832207207207207, 1702, 8.50979995727539 
+./sample_data/real/modi_BPI_2012_2012-03-13.csv, 105, 5.431599229287091, 1833, 9.05776333808899 
+./sample_data/real/modi_BPI_2012_2012-03-14.csv, 121, 5.569939183318853, 2239, 10.165411472320557 
+./sample_data/real/modi_BPI_2012_2012-03-15.csv, 1, 10.0, 20, 3.7361667156219482 

@@ -636,7 +636,8 @@ class SuggestedOptimizer(object):
 		print('suggested algorithm took {:.1f} s'.format(total_computation_time))
 		print("total time for predictions: {:.1f} s".format(total_pred_time))
 		print("total time for optimizations: {:.1f} s".format(total_opti_time))
-		with open("./exp_result/{}.txt".format(exp_name), "a") as f:
-			f.write("test_path, alpha, beta, total_weighted_sum, total_computation_time, total_pred_time, total_opti_time, self.precision*100 \n")
-		with open("./exp_result/{}.txt".format(exp_name), "a") as f:
+		if not os.path.exists("./exp_result/{}.csv".format(exp_name)):
+			with open("./exp_result/{}.csv".format(exp_name), "a") as f:
+				f.write("test_path, alpha, beta, total_weighted_sum, total_computation_time, total_pred_time, total_opti_time, self.precision*100 \n")
+		with open("./exp_result/{}.csv".format(exp_name), "a") as f:
 			f.write("{}, {}, {}, {}, {}, {}, {}, {}% \n".format(test_path, alpha, beta, total_weighted_sum, total_computation_time, total_pred_time, total_opti_time, self.precision*100))

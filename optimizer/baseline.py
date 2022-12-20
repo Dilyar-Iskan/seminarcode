@@ -459,14 +459,16 @@ class BaseOptimizer(object):
 
 		print("total weighted sum: {}".format(total_weighted_sum))
 		print('suggested algorithm took {:.1f} s'.format(total_computation_time))
-		#TODO: print the name of the attribute row only once in the file
 		if self.mode=='real':
-			with open("./exp_result/{}.txt".format(exp_name), "a") as f:
-				f.write("Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time \n")
-			with open("./exp_result/{}.txt".format(exp_name), "a") as f:
+			# if a file does not exist, create a new file and write the header
+			if not os.path.exists("./exp_result/{}.csv".format(exp_name)):
+				with open("./exp_result/{}.csv".format(exp_name), "a") as f:
+					f.write("Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time \n")
+			with open("./exp_result/{}.csv".format(exp_name), "a") as f:
 				f.write("{}, {}, {}, {}, {} \n".format(test_path, self.num_cases, self.avg_weight, total_weighted_sum, total_computation_time))
 		else:
-			with open("./exp_result/{}.txt".format(exp_name), "a") as f:
-				f.write("Baseline test_path, total_weighted_sum, total_computation_time \n")
-			with open("./exp_result/{}.txt".format(exp_name), "a") as f:
+			if not os.path.exists("./exp_result/{}.csv".format(exp_name)):
+				with open("./exp_result/{}.csv".format(exp_name), "a") as f:
+					f.write("Baseline test_path, total_weighted_sum, total_computation_time \n")
+			with open("./exp_result/{}.csv".format(exp_name), "a") as f:
 				f.write("{}, {}, {} \n".format(test_path, total_weighted_sum, total_computation_time))
