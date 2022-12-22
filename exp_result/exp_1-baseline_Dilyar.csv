@@ -1,2 +1,8 @@
 Baseline test_path, total_weighted_sum, total_computation_time 
 ./sample_data/artificial/testlog_0806_1_90.csv, 4843, 11.715689420700073 
+./sample_data/artificial/testlog_0806_1_40.csv, 2175, 6.886924743652344 
+./sample_data/artificial/testlog_0806_1_60.csv, 3427, 8.860287427902222 
+./sample_data/artificial/testlog_0806_1_80.csv, 4665, 11.057074069976807 
+./sample_data/artificial/testlog_0806_1_100.csv, 6348, 13.003426313400269 
+./sample_data/artificial/testlog_0806_1_120.csv, 7556, 14.853261232376099 
+./sample_data/artificial/testlog_0806_1_140.csv, 8358, 17.14110255241394 

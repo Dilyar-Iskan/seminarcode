@@ -631,8 +631,9 @@ class SuggestedOptimizer(object):
 		total_pred_time = sum(self.pred_time)
 		total_computation_time = (time2-time1)
 		total_opti_time = total_computation_time - total_pred_time
-
-		print("total weighted sum: {}".format(total_weighted_sum))
+		#OBSERVATION: the time needed for optimization is around 3.5 sec for various number of cases 40 to 140.
+		#INTRESTING COMPARISSON: TO ALL KNOWING optimization.
+		print("total weighted sum: {}".format(total_weighted_sum)) #TODO: check if it is total weighted completion time 
 		print('suggested algorithm took {:.1f} s'.format(total_computation_time))
 		print("total time for predictions: {:.1f} s".format(total_pred_time))
 		print("total time for optimizations: {:.1f} s".format(total_opti_time))

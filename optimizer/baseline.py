@@ -442,9 +442,11 @@ class BaseOptimizer(object):
 		while len(instance_set) != len(completes):
 			print("{} begins".format(t))
 			#ongoing instance를 추가
-			ongoing_instance = self.update_ongoing_instances(instance_set, ongoing_instance, t)
+			#TODO (optional): In case of performaing a look up on a large data set it will be better to use hash functions to speed up the process. And include the difference of time in evaluation. 
+			ongoing_instance = self.update_ongoing_instances(instance_set, ongoing_instance, t) 
 			#print('current ongoing instance: {}'.format(len(ongoing_instance)))
-			G = self.update_object(ongoing_instance, resource_set,t)
+			#TODO (optional): Use MIP to solve the problem of resource allocation. Compare speed. 
+			G = self.update_object(ongoing_instance, resource_set,t) #TOINVESTIGATE: how is the prediction is done here? accessed? 
 			#print('current cand instance and resource: {}, {}'.format(cand_instance, cand_resource))
 			M = self.update_plan(G,t)
 			#print('current matching: {}'.format(M))

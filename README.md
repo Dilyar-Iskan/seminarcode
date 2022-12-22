@@ -48,6 +48,7 @@ The code provided in this repository can be readily used to optimize resource sc
   - cd PyProM
   - pip install . 
   - cd ..
-  - cd prediction_based_resource_allocation
+  - cd seminarcode
 
+# env: sem6clone > sem6 
   
