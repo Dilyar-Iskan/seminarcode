@@ -42,7 +42,7 @@ p.yaxis.axis_label = "Total weighted completion time"
 
 
 # This part generates Fig. 7 b)
-time_x = [40, 60, 80, 100, 120]
+time_x = [40, 60, 80, 100, 120] # number of instances
 base_time_y = [10.6, 13.6, 16.4, 18.5, 21.6, 25.1]
 sug_time_y = [29.7, 42.2, 53.9, 65.6, 78.0]
 sug_pred_time_y = [24.4, 27.1, 48.9, 60.6, 72.7]
