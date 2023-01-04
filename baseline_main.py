@@ -16,7 +16,12 @@ if __name__=='__main__':
 		"""Experiment on an artificial event log"""
 		res_info_path = "./sample_data/artificial/new_resource_0806_1.csv"
 		Opt.main(test_path=args.test_path, mode=args.mode, res_info_path=res_info_path, date=args.date, exp_name=args.exp_name)
-
+	
+	elif args.mode == 'realdilyar':
+		"""Experiment on an real-life event log from BPI assignments 2020 (PADS)"""
+		org_log_path = './sample_data/real_Dilyar/modi_asignment_filtered.csv'
+		Opt.main(org_log_path = org_log_path, test_path = args.test_path, mode=args.mode, date=args.date, exp_name=args.exp_name)
+	
 	else:
 		"""Experiment on an real-life event log"""
 		org_log_path = './sample_data/real/modi_BPI_2012_dropna_filter_act.csv'
