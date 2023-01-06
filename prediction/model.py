@@ -27,7 +27,7 @@ class net:
         pass
 
     def train(self, X_train, X_train_ctx, y_train, regression, loss, n_epochs = 100,
-        normalize = False, y_normalize=False, tau = 1.0, dropout = 0.05, batch_size= 128, context=True, num_folds=10, model_name='predictor', checkpoint_dir='./checkpoints/'):
+        normalize = False, y_normalize=False, tau = 1.0, dropout = 0.05, batch_size= 128, context=True, num_folds=10, model_name='predictor', checkpoint_dir='./checkpoints2/'):
 
         """
             Constructor for the class implementing a Bayesian neural network

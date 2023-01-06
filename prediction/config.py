@@ -31,12 +31,17 @@ def load():
     #parser.add_argument('--cross_validation', default=False, type=util.str2bool)
     parser.add_argument('--batch_size_train', default=256, type=int) #lstm 256 #dnc 1
     parser.add_argument('--batch_size_test', default=1, type=int)
-
+    """
     # data
     parser.add_argument('--data_set', default="modi_BPI_2012_dropna_filter_act.csv")
-    parser.add_argument('--data_dir', default="../sample_data/real/")
-    parser.add_argument('--checkpoint_dir', default="./estimation/")
+    parser.add_argument('--data_dir', default="sample_data/real/")
+    parser.add_argument('--checkpoint_dir', default="./estimation2/")
+    """
 
+    parser.add_argument('--data_set', default="modi_assignment_filtered.csv")
+    parser.add_argument('--data_dir', default="sample_data/real_Dilyar/")
+    parser.add_argument('--checkpoint_dir', default="./estimation2/")
+    
     args = parser.parse_args()
 
     return args

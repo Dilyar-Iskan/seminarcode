@@ -51,7 +51,7 @@ class FeatureGenerator(object):
 	    return df
 
 	def read_into_panda_from_csv(self, path, sep=','):
-	    panda_log = pd.read_csv(filepath_or_buffer=path, header=0, sep=sep)#, index_col=0)
+	    panda_log = pd.read_csv(filepath_or_buffer=path, header=0, sep=sep, encoding='utf-8')#, index_col=0)
 	    panda_log = panda_log[['CASE_ID','Activity','Resource', 'StartTimestamp','CompleteTimestamp']]
 	    # rename columns:
 	    panda_log.columns = ['id','state', 'resource','start_timestamp','complete_timestamp']

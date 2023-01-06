@@ -5,7 +5,7 @@ import keras
 import pickle
 from datetime import datetime
 from model import net
-
+import os 
 accuracy_values = list()
 accuracy_sum = 0.0
 accuracy_value = 0.0
@@ -27,8 +27,10 @@ if __name__ == '__main__':
 
 	level = args.inter_case_level
 	#filename = req['name']
-
-	filename = args.data_dir + args.data_set
+	
+	project_root = os.path.abspath(os.path.join(os.getcwd(), '..'))
+	
+	filename = os.path.join(project_root, args.data_dir, args.data_set ) 
 	model_name = args.data_set + args.task
 
 	contextual_info = args.contextual_info
@@ -55,7 +57,7 @@ if __name__ == '__main__':
 	#create train
 	train_df = FG.order_csv_time(train_df)
 	train_df = FG.queue_level(train_df)
-	train_df.to_csv('./training_data.csv')
+	train_df.to_csv('./training_data2.csv')
 	state_list = FG.get_states(train_df)
 	train_X, train_Y_Event, train_Y_Time = FG.one_hot_encode_history(train_df, args.checkpoint_dir+args.data_set)
 	if contextual_info:
