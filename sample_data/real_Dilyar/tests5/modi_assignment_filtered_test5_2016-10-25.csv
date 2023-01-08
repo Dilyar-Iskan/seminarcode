@@ -1,0 +1,725 @@
+,CASE_ID,Activity,Resource,StartTimestamp,CompleteTimestamp,Variant,Variant index,LoanGoal,ApplicationType,Amount,Duration,Duration_log_transformation,StartDate,CompleteDate,weight
+101188,Application_958218647,Complete application,104,2016-10-25 09:24:53,2016-10-25 09:24:53,Variant 2,2,Existing loan takeover,New credit,6000.0,0,-inf,2016-10-25,2016-10-25,1
+101189,Application_958218647,Calling client,84,2016-10-28 14:26:20,2016-10-28 14:26:20,Variant 2,2,Existing loan takeover,New credit,6000.0,0,-inf,2016-10-28,2016-10-28,1
+101190,Application_958218647,Validation,123,2016-11-02 11:32:23,2016-11-02 11:32:23,Variant 2,2,Existing loan takeover,New credit,6000.0,0,-inf,2016-11-02,2016-11-02,1
+102010,Application_1096460123,Complete application,104,2016-10-25 16:43:48,2016-10-25 16:43:48,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-10-25,2016-10-25,8
+102011,Application_1096460123,Calling client,48,2016-10-26 10:40:38,2016-10-26 10:40:38,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-10-26,2016-10-26,8
+102012,Application_1096460123,Validation,27,2016-11-01 13:12:27,2016-11-01 13:12:51,Variant 23,23,Existing loan takeover,New credit,55000.0,1,0.0,2016-11-01,2016-11-01,8
+102013,Application_1096460123,Request incomplete files,27,2016-11-01 13:12:51,2016-11-01 13:12:51,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-11-01,2016-11-01,8
+102014,Application_1096460123,Validation,133,2016-11-01 21:08:07,2016-11-01 21:08:10,Variant 23,23,Existing loan takeover,New credit,55000.0,1,0.0,2016-11-01,2016-11-01,8
+102015,Application_1096460123,Request incomplete files,133,2016-11-01 21:08:10,2016-11-01 21:08:10,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-11-01,2016-11-01,8
+102016,Application_1096460123,Validation,118,2016-11-03 08:24:44,2016-11-03 08:24:44,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-11-03,2016-11-03,8
+102017,Application_1096460123,Request incomplete files,30,2016-11-09 12:53:43,2016-11-09 12:53:43,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-11-09,2016-11-09,8
+102018,Application_1096460123,Validation,133,2016-11-10 17:01:24,2016-11-10 17:01:24,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-11-10,2016-11-10,8
+102019,Application_1096460123,Request incomplete files,83,2016-11-11 09:53:17,2016-11-11 09:53:17,Variant 23,23,Existing loan takeover,New credit,55000.0,0,-inf,2016-11-11,2016-11-11,8
+102369,Application_768687683,Complete application,67,2016-10-25 14:23:16,2016-10-25 14:25:03,Variant 1,1,"Other, see explanation",New credit,50000.0,2,0.6931471805599453,2016-10-25,2016-10-25,7
+102370,Application_768687683,Calling client,67,2016-10-25 14:25:03,2016-10-25 14:25:03,Variant 1,1,"Other, see explanation",New credit,50000.0,0,-inf,2016-10-25,2016-10-25,7
+102371,Application_1425820279,Complete application,67,2016-10-25 09:03:11,2016-10-25 09:03:11,Variant 3,3,Existing loan takeover,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+102372,Application_1425820279,Calling client,61,2016-10-25 09:26:54,2016-10-25 09:26:54,Variant 3,3,Existing loan takeover,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+102373,Application_1425820279,Validation,107,2016-10-31 14:03:13,2016-10-31 14:03:13,Variant 3,3,Existing loan takeover,New credit,20000.0,0,-inf,2016-10-31,2016-10-31,3
+102374,Application_1425820279,Request incomplete files,83,2016-11-03 13:59:05,2016-11-03 13:59:05,Variant 3,3,Existing loan takeover,New credit,20000.0,0,-inf,2016-11-03,2016-11-03,3
+102375,Application_1425820279,Validation,7,2016-11-03 14:43:03,2016-11-03 14:43:03,Variant 3,3,Existing loan takeover,New credit,20000.0,0,-inf,2016-11-03,2016-11-03,3
+102394,Application_84195997,Calling client,58,2016-10-25 09:30:46,2016-10-25 09:30:46,Variant 21,21,Car,New credit,7500.0,0,-inf,2016-10-25,2016-10-25,1
+102395,Application_84195997,Validation,27,2016-11-01 13:24:33,2016-11-01 13:27:01,Variant 21,21,Car,New credit,7500.0,3,1.0986122886681098,2016-11-01,2016-11-01,1
+102396,Application_84195997,Request incomplete files,27,2016-11-01 13:27:01,2016-11-01 13:27:01,Variant 21,21,Car,New credit,7500.0,0,-inf,2016-11-01,2016-11-01,1
+102397,Application_84195997,Validation,68,2016-11-03 18:06:24,2016-11-08 14:33:52,Variant 21,21,Car,New credit,7500.0,1228,7.113142108707088,2016-11-03,2016-11-08,1
+102398,Application_84195997,Request incomplete files,68,2016-11-08 14:33:52,2016-11-08 14:33:52,Variant 21,21,Car,New credit,7500.0,0,-inf,2016-11-08,2016-11-08,1
+102399,Application_1417653464,Complete application,104,2016-10-25 12:35:07,2016-10-25 12:35:07,Variant 1,1,Car,New credit,21500.0,0,-inf,2016-10-25,2016-10-25,3
+102400,Application_1417653464,Calling client,37,2016-10-29 10:25:30,2016-10-29 10:25:30,Variant 1,1,Car,New credit,21500.0,0,-inf,2016-10-29,2016-10-29,3
+102835,Application_1771092914,Complete application,67,2016-10-25 09:04:01,2016-10-25 09:18:22,Variant 1,1,Car,New credit,9000.0,15,2.70805020110221,2016-10-25,2016-10-25,2
+102836,Application_1771092914,Calling client,67,2016-10-25 09:18:22,2016-10-25 09:18:22,Variant 1,1,Car,New credit,9000.0,0,-inf,2016-10-25,2016-10-25,2
+102837,Application_2081457336,Complete application,80,2016-10-25 09:07:58,2016-10-25 09:07:58,Variant 4,4,Existing loan takeover,New credit,17500.0,0,-inf,2016-10-25,2016-10-25,3
+102838,Application_2081457336,Calling client,61,2016-10-25 11:57:04,2016-10-25 11:57:04,Variant 4,4,Existing loan takeover,New credit,17500.0,0,-inf,2016-10-25,2016-10-25,3
+102839,Application_2081457336,Validation,118,2016-11-02 11:21:11,2016-11-02 11:21:11,Variant 4,4,Existing loan takeover,New credit,17500.0,0,-inf,2016-11-02,2016-11-02,3
+102840,Application_2081457336,Request incomplete files,29,2016-11-03 17:11:30,2016-11-03 17:11:30,Variant 4,4,Existing loan takeover,New credit,17500.0,0,-inf,2016-11-03,2016-11-03,3
+102867,Application_823830081,Complete application,80,2016-10-25 09:17:13,2016-10-25 09:17:13,Variant 3,3,Existing loan takeover,New credit,40000.0,0,-inf,2016-10-25,2016-10-25,6
+102868,Application_823830081,Calling client,57,2016-10-28 17:15:22,2016-10-28 17:15:22,Variant 3,3,Existing loan takeover,New credit,40000.0,0,-inf,2016-10-28,2016-10-28,6
+102869,Application_823830081,Validation,68,2016-11-08 11:05:40,2016-11-11 12:28:07,Variant 3,3,Existing loan takeover,New credit,40000.0,83,4.418840607796598,2016-11-08,2016-11-11,6
+102870,Application_823830081,Request incomplete files,68,2016-11-11 12:28:07,2016-11-11 12:28:07,Variant 3,3,Existing loan takeover,New credit,40000.0,0,-inf,2016-11-11,2016-11-11,6
+102871,Application_823830081,Validation,68,2016-11-11 13:33:56,2016-11-14 12:14:09,Variant 3,3,Existing loan takeover,New credit,40000.0,1361,7.215975002651466,2016-11-11,2016-11-14,6
+102897,Application_616416650,Complete application,104,2016-10-25 09:13:44,2016-10-25 09:13:44,Variant 1,1,Existing loan takeover,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+102898,Application_616416650,Calling client,21,2016-10-25 09:25:36,2016-10-25 09:25:36,Variant 1,1,Existing loan takeover,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+102909,Application_1200105859,Complete application,80,2016-10-25 09:21:18,2016-10-25 09:32:47,Variant 1,1,Existing loan takeover,New credit,17000.0,12,2.4849066497880004,2016-10-25,2016-10-25,3
+102910,Application_1200105859,Calling client,80,2016-10-25 09:32:47,2016-10-25 09:32:47,Variant 1,1,Existing loan takeover,New credit,17000.0,0,-inf,2016-10-25,2016-10-25,3
+102911,Application_116887817,Complete application,80,2016-10-25 09:53:40,2016-10-25 10:16:45,Variant 1,1,Home improvement,New credit,20000.0,24,3.1780538303479458,2016-10-25,2016-10-25,3
+102912,Application_116887817,Calling client,80,2016-10-25 10:16:45,2016-10-25 10:16:45,Variant 1,1,Home improvement,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+102913,Application_2029271670,Complete application,67,2016-10-25 09:55:11,2016-10-25 10:08:49,Variant 31,31,Home improvement,New credit,10000.0,14,2.6390573296152584,2016-10-25,2016-10-25,2
+102914,Application_2029271670,Calling client,67,2016-10-25 10:08:49,2016-10-25 10:08:49,Variant 31,31,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+102915,Application_2029271670,Validation,118,2016-11-10 13:33:49,2016-11-10 13:33:49,Variant 31,31,Home improvement,New credit,10000.0,0,-inf,2016-11-10,2016-11-10,2
+102916,Application_2029271670,Fraud suspicion check,138,2016-11-15 11:44:37,2016-11-24 10:22:37,Variant 31,31,Home improvement,New credit,10000.0,1358,7.213768308118642,2016-11-15,2016-11-24,2
+102917,Application_596574084,Complete application,3,2016-10-25 09:34:27,2016-10-25 18:29:22,Variant 4,4,Car,New credit,20000.0,535,6.282266746896006,2016-10-25,2016-10-25,3
+102918,Application_596574084,Calling client,3,2016-10-25 18:29:22,2016-10-25 18:29:22,Variant 4,4,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+102919,Application_596574084,Validation,121,2016-11-02 11:59:25,2016-11-02 11:59:25,Variant 4,4,Car,New credit,20000.0,0,-inf,2016-11-02,2016-11-02,3
+102920,Application_596574084,Request incomplete files,68,2016-11-07 13:35:36,2016-11-07 13:35:36,Variant 4,4,Car,New credit,20000.0,0,-inf,2016-11-07,2016-11-07,3
+102924,Application_2031841757,Complete application,80,2016-10-25 09:40:36,2016-10-25 09:51:28,Variant 6,6,Home improvement,New credit,25000.0,11,2.3978952727983707,2016-10-25,2016-10-25,4
+102925,Application_2031841757,Calling client,80,2016-10-25 09:51:28,2016-10-25 09:51:28,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+102926,Application_2031841757,Validation,119,2016-11-01 09:54:01,2016-11-01 09:54:01,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-01,2016-11-01,4
+102927,Application_2031841757,Request incomplete files,90,2016-11-02 09:23:39,2016-11-02 09:23:39,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-02,2016-11-02,4
+102928,Application_2031841757,Validation,27,2016-11-03 09:51:50,2016-11-03 09:51:50,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-03,2016-11-03,4
+102929,Application_2031841757,Request incomplete files,90,2016-11-03 13:06:32,2016-11-03 13:06:32,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-03,2016-11-03,4
+102940,Application_1768409536,Complete application,104,2016-10-25 10:08:07,2016-10-25 10:08:07,Variant 1,1,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+102941,Application_1768409536,Calling client,61,2016-10-25 10:32:56,2016-10-25 10:32:56,Variant 1,1,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+102942,Application_1140214785,Complete application,67,2016-10-25 10:17:09,2016-10-25 10:26:51,Variant 3,3,Home improvement,New credit,10000.0,10,2.302585092994046,2016-10-25,2016-10-25,2
+102943,Application_1140214785,Calling client,67,2016-10-25 10:26:51,2016-10-25 10:26:51,Variant 3,3,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+102944,Application_1140214785,Validation,107,2016-11-01 08:57:48,2016-11-01 09:07:04,Variant 3,3,Home improvement,New credit,10000.0,10,2.302585092994046,2016-11-01,2016-11-01,2
+102945,Application_1140214785,Request incomplete files,107,2016-11-01 09:07:04,2016-11-01 09:07:04,Variant 3,3,Home improvement,New credit,10000.0,0,-inf,2016-11-01,2016-11-01,2
+102946,Application_1140214785,Validation,133,2016-11-01 18:10:37,2016-11-01 18:10:37,Variant 3,3,Home improvement,New credit,10000.0,0,-inf,2016-11-01,2016-11-01,2
+102949,Application_1316556140,Complete application,67,2016-10-25 10:29:45,2016-10-25 10:47:24,Variant 4,4,Existing loan takeover,New credit,5000.0,18,2.8903717578961645,2016-10-25,2016-10-25,1
+102950,Application_1316556140,Calling client,67,2016-10-25 10:47:24,2016-10-25 10:47:24,Variant 4,4,Existing loan takeover,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+102951,Application_1316556140,Validation,27,2016-11-01 10:26:31,2016-11-01 10:26:31,Variant 4,4,Existing loan takeover,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+102952,Application_1316556140,Request incomplete files,29,2016-11-02 16:10:02,2016-11-02 16:10:02,Variant 4,4,Existing loan takeover,New credit,5000.0,0,-inf,2016-11-02,2016-11-02,1
+102953,Application_558507947,Complete application,56,2016-10-25 10:49:29,2016-10-27 17:27:28,Variant 1,1,Car,New credit,5000.0,398,5.986452005284438,2016-10-25,2016-10-27,1
+102954,Application_558507947,Calling client,56,2016-10-27 17:27:28,2016-10-27 17:27:28,Variant 1,1,Car,New credit,5000.0,0,-inf,2016-10-27,2016-10-27,1
+102955,Application_377692746,Complete application,80,2016-10-25 10:45:09,2016-10-25 10:45:09,Variant 1,1,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+102956,Application_377692746,Calling client,26,2016-10-25 15:13:46,2016-10-25 15:13:46,Variant 1,1,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+102957,Application_664337168,Complete application,67,2016-10-25 10:54:25,2016-10-25 10:54:25,Variant 1,1,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+102958,Application_664337168,Calling client,44,2016-10-25 19:07:33,2016-10-25 19:07:33,Variant 1,1,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+102959,Application_1157455039,Complete application,80,2016-10-25 10:55:30,2016-10-27 19:37:13,Variant 12,12,Home improvement,New credit,7000.0,522,6.257667587882639,2016-10-25,2016-10-27,1
+102960,Application_1157455039,Calling client,80,2016-10-27 19:37:13,2016-10-27 19:37:13,Variant 12,12,Home improvement,New credit,7000.0,0,-inf,2016-10-27,2016-10-27,1
+102961,Application_1157455039,Validation,118,2016-11-10 14:10:22,2016-11-10 14:11:28,Variant 12,12,Home improvement,New credit,7000.0,2,0.6931471805599453,2016-11-10,2016-11-10,1
+102962,Application_1157455039,Request incomplete files,75,2016-11-10 14:11:28,2016-11-18 15:06:51,Variant 12,12,Home improvement,New credit,7000.0,56,4.02535169073515,2016-11-10,2016-11-18,1
+102963,Application_1157455039,Validation,133,2016-11-16 18:47:50,2016-11-16 18:47:50,Variant 12,12,Home improvement,New credit,7000.0,0,-inf,2016-11-16,2016-11-16,1
+102964,Application_1157455039,Request incomplete files,75,2016-11-18 15:06:40,2016-11-18 15:06:40,Variant 12,12,Home improvement,New credit,7000.0,0,-inf,2016-11-18,2016-11-18,1
+102965,Application_1157455039,Validation,75,2016-11-18 15:06:51,2016-11-18 15:06:51,Variant 12,12,Home improvement,New credit,7000.0,0,-inf,2016-11-18,2016-11-18,1
+102966,Application_1157455039,Request incomplete files,75,2016-11-19 17:00:46,2016-11-19 17:00:46,Variant 12,12,Home improvement,New credit,7000.0,0,-inf,2016-11-19,2016-11-19,1
+102967,Application_1157455039,Validation,66,2016-11-21 09:42:39,2016-11-21 09:42:39,Variant 12,12,Home improvement,New credit,7000.0,0,-inf,2016-11-21,2016-11-21,1
+102968,Application_892427793,Complete application,104,2016-10-25 10:54:42,2016-10-25 11:08:32,Variant 1,1,Boat,New credit,21000.0,14,2.6390573296152584,2016-10-25,2016-10-25,3
+102969,Application_892427793,Calling client,104,2016-10-25 11:08:32,2016-10-25 11:08:32,Variant 1,1,Boat,New credit,21000.0,0,-inf,2016-10-25,2016-10-25,3
+102970,Application_1524859554,Complete application,104,2016-10-25 11:16:40,2016-10-25 11:34:43,Variant 1,1,Not speficied,New credit,75000.0,19,2.9444389791664403,2016-10-25,2016-10-25,10
+102971,Application_1524859554,Calling client,104,2016-10-25 11:34:43,2016-10-25 11:34:43,Variant 1,1,Not speficied,New credit,75000.0,0,-inf,2016-10-25,2016-10-25,10
+102978,Application_2051974818,Complete application,80,2016-10-25 11:03:23,2016-10-25 11:03:23,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+102979,Application_2051974818,Calling client,28,2016-10-25 11:55:38,2016-10-25 11:55:38,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+102980,Application_2051974818,Validation,27,2016-11-01 11:06:23,2016-11-01 11:06:23,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-01,2016-11-01,4
+102981,Application_2051974818,Request incomplete files,87,2016-11-04 14:29:41,2016-11-04 14:29:41,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-04,2016-11-04,4
+102982,Application_2051974818,Validation,133,2016-11-05 15:45:11,2016-11-05 15:45:11,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-05,2016-11-05,4
+102983,Application_2051974818,Request incomplete files,75,2016-11-07 10:12:08,2016-11-07 10:12:08,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-11-07,2016-11-07,4
+102986,Application_1121095468,Complete application,80,2016-10-25 11:27:41,2016-10-25 11:38:56,Variant 4,4,Car,New credit,5000.0,12,2.4849066497880004,2016-10-25,2016-10-25,1
+102987,Application_1121095468,Calling client,80,2016-10-25 11:38:56,2016-10-25 11:38:56,Variant 4,4,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+102988,Application_1121095468,Validation,131,2016-11-01 09:48:51,2016-11-01 09:48:51,Variant 4,4,Car,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+102989,Application_1121095468,Request incomplete files,87,2016-11-03 11:18:14,2016-11-03 11:18:14,Variant 4,4,Car,New credit,5000.0,0,-inf,2016-11-03,2016-11-03,1
+102990,Application_1487829407,Complete application,80,2016-10-25 11:53:11,2016-10-25 12:05:39,Variant 4,4,Home improvement,New credit,30000.0,13,2.5649493574615367,2016-10-25,2016-10-25,4
+102991,Application_1487829407,Calling client,80,2016-10-25 12:05:39,2016-10-25 12:05:39,Variant 4,4,Home improvement,New credit,30000.0,0,-inf,2016-10-25,2016-10-25,4
+102992,Application_1487829407,Validation,122,2016-10-28 13:48:31,2016-10-28 13:48:31,Variant 4,4,Home improvement,New credit,30000.0,0,-inf,2016-10-28,2016-10-28,4
+102993,Application_1487829407,Request incomplete files,68,2016-11-01 07:48:26,2016-11-01 07:48:26,Variant 4,4,Home improvement,New credit,30000.0,0,-inf,2016-11-01,2016-11-01,4
+102994,Application_2091145908,Complete application,80,2016-10-25 12:19:20,2016-10-25 12:19:20,Variant 3,3,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+102995,Application_2091145908,Calling client,60,2016-10-26 15:09:40,2016-10-26 15:09:40,Variant 3,3,Car,New credit,5000.0,0,-inf,2016-10-26,2016-10-26,1
+102996,Application_2091145908,Validation,119,2016-11-01 10:10:57,2016-11-01 10:10:57,Variant 3,3,Car,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+102997,Application_2091145908,Request incomplete files,30,2016-11-02 15:55:25,2016-11-02 15:55:25,Variant 3,3,Car,New credit,5000.0,0,-inf,2016-11-02,2016-11-02,1
+102998,Application_2091145908,Validation,123,2016-11-07 14:10:48,2016-11-07 14:10:48,Variant 3,3,Car,New credit,5000.0,0,-inf,2016-11-07,2016-11-07,1
+102999,Application_527482957,Calling client,58,2016-10-25 16:35:35,2016-10-25 16:35:35,Variant 10,10,Tax payments,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103041,Application_306812685,Complete application,104,2016-10-25 10:18:47,2016-10-25 10:33:14,Variant 3,3,Home improvement,New credit,12000.0,15,2.70805020110221,2016-10-25,2016-10-25,2
+103042,Application_306812685,Calling client,104,2016-10-25 10:33:14,2016-10-25 10:33:14,Variant 3,3,Home improvement,New credit,12000.0,0,-inf,2016-10-25,2016-10-25,2
+103043,Application_306812685,Validation,107,2016-11-01 10:17:29,2016-11-01 10:25:11,Variant 3,3,Home improvement,New credit,12000.0,8,2.0794415416798357,2016-11-01,2016-11-01,2
+103044,Application_306812685,Request incomplete files,107,2016-11-01 10:25:11,2016-11-01 10:25:11,Variant 3,3,Home improvement,New credit,12000.0,0,-inf,2016-11-01,2016-11-01,2
+103045,Application_306812685,Validation,83,2016-11-03 12:33:51,2016-11-03 13:23:26,Variant 3,3,Home improvement,New credit,12000.0,50,3.912023005428146,2016-11-03,2016-11-03,2
+103064,Application_620336293,Complete application,67,2016-10-25 15:04:43,2016-10-25 15:13:20,Variant 4,4,Car,New credit,10000.0,9,2.1972245773362196,2016-10-25,2016-10-25,2
+103065,Application_620336293,Calling client,67,2016-10-25 15:13:20,2016-10-25 15:13:20,Variant 4,4,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103066,Application_620336293,Validation,118,2016-10-31 10:08:04,2016-10-31 10:08:04,Variant 4,4,Car,New credit,10000.0,0,-inf,2016-10-31,2016-10-31,2
+103067,Application_620336293,Request incomplete files,100,2016-11-01 12:58:44,2016-11-01 12:58:44,Variant 4,4,Car,New credit,10000.0,0,-inf,2016-11-01,2016-11-01,2
+103094,Application_467957342,Calling client,70,2016-10-25 09:46:13,2016-10-25 09:46:13,Variant 20,20,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103095,Application_467957342,Validation,118,2016-11-10 09:49:06,2016-11-10 09:49:09,Variant 20,20,Home improvement,New credit,15000.0,1,0.0,2016-11-10,2016-11-10,2
+103096,Application_467957342,Request incomplete files,26,2016-11-10 09:49:09,2016-11-16 09:18:54,Variant 20,20,Home improvement,New credit,15000.0,1410,7.251344983372214,2016-11-10,2016-11-16,2
+103097,Application_467957342,Validation,93,2016-11-14 10:03:23,2016-11-15 14:18:31,Variant 20,20,Home improvement,New credit,15000.0,256,5.545177444479562,2016-11-14,2016-11-15,2
+103098,Application_467957342,Request incomplete files,93,2016-11-15 14:18:31,2016-11-15 14:18:31,Variant 20,20,Home improvement,New credit,15000.0,0,-inf,2016-11-15,2016-11-15,2
+103099,Application_467957342,Validation,26,2016-11-16 09:18:54,2016-11-16 09:18:54,Variant 20,20,Home improvement,New credit,15000.0,0,-inf,2016-11-16,2016-11-16,2
+103127,Application_1569475999,Calling client,70,2016-10-25 10:42:42,2016-10-25 10:42:42,Variant 13,13,Home improvement,New credit,7000.0,0,-inf,2016-10-25,2016-10-25,1
+103128,Application_1569475999,Validation,107,2016-10-31 10:02:11,2016-10-31 10:02:11,Variant 13,13,Home improvement,New credit,7000.0,0,-inf,2016-10-31,2016-10-31,1
+103129,Application_1569475999,Request incomplete files,109,2016-11-02 16:53:37,2016-11-02 16:53:37,Variant 13,13,Home improvement,New credit,7000.0,0,-inf,2016-11-02,2016-11-02,1
+103130,Application_1569475999,Validation,27,2016-11-03 15:58:12,2016-11-03 15:58:12,Variant 13,13,Home improvement,New credit,7000.0,0,-inf,2016-11-03,2016-11-03,1
+103142,Application_1533785960,Complete application,3,2016-10-25 18:02:11,2016-10-25 18:10:50,Variant 5,5,Car,New credit,6000.0,9,2.1972245773362196,2016-10-25,2016-10-25,1
+103143,Application_1533785960,Calling client,3,2016-10-25 18:10:50,2016-10-25 18:10:50,Variant 5,5,Car,New credit,6000.0,0,-inf,2016-10-25,2016-10-25,1
+103144,Application_1533785960,Validation,107,2016-11-01 09:21:12,2016-11-01 09:21:12,Variant 5,5,Car,New credit,6000.0,0,-inf,2016-11-01,2016-11-01,1
+103145,Application_1533785960,Request incomplete files,90,2016-11-01 22:23:47,2016-11-01 22:23:47,Variant 5,5,Car,New credit,6000.0,0,-inf,2016-11-01,2016-11-01,1
+103146,Application_1533785960,Validation,118,2016-11-02 15:16:48,2016-11-02 15:16:48,Variant 5,5,Car,New credit,6000.0,0,-inf,2016-11-02,2016-11-02,1
+103147,Application_1533785960,Request incomplete files,90,2016-11-03 11:59:40,2016-11-03 11:59:40,Variant 5,5,Car,New credit,6000.0,0,-inf,2016-11-03,2016-11-03,1
+103148,Application_1533785960,Validation,10,2016-11-03 16:33:04,2016-11-03 16:33:04,Variant 5,5,Car,New credit,6000.0,0,-inf,2016-11-03,2016-11-03,1
+103151,Application_1820504290,Complete application,79,2016-10-25 12:07:46,2016-10-25 19:12:35,Variant 1,1,Car,New credit,15000.0,425,6.052089168924417,2016-10-25,2016-10-25,2
+103152,Application_1820504290,Calling client,79,2016-10-25 19:12:35,2016-10-25 19:12:35,Variant 1,1,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103161,Application_955811445,Complete application,40,2016-10-25 12:07:37,2016-10-25 15:58:56,Variant 6,6,Existing loan takeover,New credit,32500.0,232,5.44673737166631,2016-10-25,2016-10-25,5
+103162,Application_955811445,Calling client,40,2016-10-25 15:58:56,2016-10-25 15:58:56,Variant 6,6,Existing loan takeover,New credit,32500.0,0,-inf,2016-10-25,2016-10-25,5
+103163,Application_955811445,Validation,131,2016-10-28 13:21:07,2016-10-28 13:21:27,Variant 6,6,Existing loan takeover,New credit,32500.0,1,0.0,2016-10-28,2016-10-28,5
+103164,Application_955811445,Request incomplete files,131,2016-10-28 13:21:27,2016-10-28 13:21:27,Variant 6,6,Existing loan takeover,New credit,32500.0,0,-inf,2016-10-28,2016-10-28,5
+103165,Application_955811445,Validation,68,2016-11-02 13:45:02,2016-11-07 14:17:51,Variant 6,6,Existing loan takeover,New credit,32500.0,33,3.4965075614664802,2016-11-02,2016-11-07,5
+103166,Application_955811445,Request incomplete files,68,2016-11-07 14:17:51,2016-11-07 14:17:51,Variant 6,6,Existing loan takeover,New credit,32500.0,0,-inf,2016-11-07,2016-11-07,5
+103170,Application_372912766,Complete application,80,2016-10-25 12:24:24,2016-10-25 12:24:24,Variant 1,1,Car,New credit,7500.0,0,-inf,2016-10-25,2016-10-25,1
+103171,Application_372912766,Calling client,70,2016-10-25 12:31:31,2016-10-25 12:31:31,Variant 1,1,Car,New credit,7500.0,0,-inf,2016-10-25,2016-10-25,1
+103172,Application_747812656,Complete application,24,2016-10-25 12:24:46,2016-10-25 15:17:07,Variant 6,6,Car,New credit,10000.0,173,5.153291594497779,2016-10-25,2016-10-25,2
+103173,Application_747812656,Calling client,24,2016-10-25 15:17:07,2016-10-25 15:17:07,Variant 6,6,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103174,Application_747812656,Validation,122,2016-11-11 16:36:30,2016-11-11 16:36:30,Variant 6,6,Car,New credit,10000.0,0,-inf,2016-11-11,2016-11-11,2
+103175,Application_747812656,Request incomplete files,87,2016-11-15 14:39:34,2016-11-15 14:39:34,Variant 6,6,Car,New credit,10000.0,0,-inf,2016-11-15,2016-11-15,2
+103176,Application_747812656,Validation,133,2016-11-17 16:22:30,2016-11-17 16:22:30,Variant 6,6,Car,New credit,10000.0,0,-inf,2016-11-17,2016-11-17,2
+103177,Application_747812656,Request incomplete files,87,2016-11-18 14:54:18,2016-11-18 14:54:18,Variant 6,6,Car,New credit,10000.0,0,-inf,2016-11-18,2016-11-18,2
+103178,Application_1852538604,Complete application,80,2016-10-25 12:28:05,2016-10-25 12:43:31,Variant 1,1,Existing loan takeover,New credit,5000.0,16,2.772588722239781,2016-10-25,2016-10-25,1
+103179,Application_1852538604,Calling client,80,2016-10-25 12:43:31,2016-10-25 12:43:31,Variant 1,1,Existing loan takeover,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103180,Application_770018911,Complete application,42,2016-10-25 14:00:02,2016-10-25 14:00:02,Variant 4,4,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103181,Application_770018911,Calling client,61,2016-11-01 17:43:05,2016-11-01 17:43:05,Variant 4,4,Car,New credit,15000.0,0,-inf,2016-11-01,2016-11-01,2
+103182,Application_770018911,Validation,27,2016-11-08 15:22:00,2016-11-08 15:25:46,Variant 4,4,Car,New credit,15000.0,4,1.3862943611198906,2016-11-08,2016-11-08,2
+103183,Application_770018911,Request incomplete files,15,2016-11-08 15:25:46,2016-11-16 18:49:46,Variant 4,4,Car,New credit,15000.0,204,5.318119993844216,2016-11-08,2016-11-16,2
+103184,Application_292866700,Calling client,42,2016-10-25 09:21:39,2016-10-25 09:21:39,Variant 10,10,Home improvement,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103206,Application_376118809,Calling client,42,2016-10-25 09:37:31,2016-10-25 09:37:31,Variant 13,13,"Other, see explanation",New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103207,Application_376118809,Validation,68,2016-10-31 11:51:08,2016-11-02 07:48:45,Variant 13,13,"Other, see explanation",New credit,5000.0,1198,7.088408778675395,2016-10-31,2016-11-02,1
+103208,Application_376118809,Request incomplete files,54,2016-11-01 16:20:17,2016-11-01 19:22:51,Variant 13,13,"Other, see explanation",New credit,5000.0,183,5.209486152841421,2016-11-01,2016-11-01,1
+103209,Application_376118809,Validation,54,2016-11-01 19:22:51,2016-11-01 19:22:51,Variant 13,13,"Other, see explanation",New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+103210,Application_750872976,Calling client,21,2016-10-25 10:39:12,2016-10-25 10:39:12,Variant 10,10,Caravan / Camper,New credit,30000.0,0,-inf,2016-10-25,2016-10-25,4
+103214,Application_1684641986,Short completion,42,2016-10-25 09:41:28,2016-10-25 09:41:28,Variant 371,371,Car,New credit,38338.0,0,-inf,2016-10-25,2016-10-25,6
+103215,Application_1684641986,Short completion,42,2016-10-25 09:41:33,2016-10-25 09:41:33,Variant 371,371,Car,New credit,38338.0,0,-inf,2016-10-25,2016-10-25,6
+103216,Application_1684641986,Calling client,42,2016-10-25 09:46:01,2016-10-25 09:46:01,Variant 371,371,Car,New credit,38338.0,0,-inf,2016-10-25,2016-10-25,6
+103217,Application_1684641986,Validation,53,2016-11-16 17:01:05,2016-11-16 17:01:05,Variant 371,371,Car,New credit,38338.0,0,-inf,2016-11-16,2016-11-16,6
+103218,Application_1684641986,Request incomplete files,29,2016-11-18 15:33:00,2016-11-18 15:33:00,Variant 371,371,Car,New credit,38338.0,0,-inf,2016-11-18,2016-11-18,6
+103219,Application_681711857,Calling client,42,2016-10-25 09:52:47,2016-10-25 09:52:47,Variant 13,13,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103220,Application_681711857,Validation,131,2016-11-02 14:46:26,2016-11-02 14:46:26,Variant 13,13,Car,New credit,20000.0,0,-inf,2016-11-02,2016-11-02,3
+103221,Application_681711857,Request incomplete files,18,2016-11-04 13:43:38,2016-11-04 16:07:35,Variant 13,13,Car,New credit,20000.0,144,4.969813299576001,2016-11-04,2016-11-04,3
+103222,Application_681711857,Validation,18,2016-11-04 16:07:35,2016-11-04 16:07:35,Variant 13,13,Car,New credit,20000.0,0,-inf,2016-11-04,2016-11-04,3
+103223,Application_1671150390,Calling client,42,2016-10-25 10:07:03,2016-10-25 10:07:03,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-10-25,2016-10-25,5
+103224,Application_1671150390,Validation,133,2016-10-27 14:21:40,2016-10-27 14:21:44,Variant 47,47,"Other, see explanation",New credit,35000.0,1,0.0,2016-10-27,2016-10-27,5
+103225,Application_1671150390,Request incomplete files,133,2016-10-27 14:21:44,2016-10-27 14:21:44,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-10-27,2016-10-27,5
+103226,Application_1671150390,Validation,99,2016-11-02 11:54:36,2016-11-09 14:03:50,Variant 47,47,"Other, see explanation",New credit,35000.0,130,4.867534450455582,2016-11-02,2016-11-09,5
+103227,Application_1671150390,Request incomplete files,99,2016-11-08 16:08:50,2016-11-08 16:08:50,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-11-08,2016-11-08,5
+103228,Application_1671150390,Validation,133,2016-11-09 14:03:47,2016-11-10 14:27:18,Variant 47,47,"Other, see explanation",New credit,35000.0,24,3.1780538303479458,2016-11-09,2016-11-10,5
+103229,Application_1671150390,Request incomplete files,99,2016-11-09 14:03:50,2016-11-09 14:03:50,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-11-09,2016-11-09,5
+103230,Application_1671150390,Validation,133,2016-11-10 14:27:15,2016-11-10 14:27:15,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-11-10,2016-11-10,5
+103231,Application_1671150390,Request incomplete files,133,2016-11-10 14:27:18,2016-11-10 14:27:18,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-11-10,2016-11-10,5
+103232,Application_1671150390,Validation,71,2016-11-10 15:13:19,2016-11-10 15:13:19,Variant 47,47,"Other, see explanation",New credit,35000.0,0,-inf,2016-11-10,2016-11-10,5
+103233,Application_1241865852,Calling client,28,2016-10-25 10:51:28,2016-10-25 10:51:28,Variant 10,10,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103241,Application_1835983478,Calling client,42,2016-10-25 10:16:32,2016-10-25 10:16:32,Variant 36,36,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+103242,Application_1835983478,Validation,122,2016-11-04 09:41:24,2016-11-16 10:51:58,Variant 36,36,Home improvement,New credit,25000.0,71,4.2626798770413155,2016-11-04,2016-11-16,4
+103243,Application_1835983478,Request incomplete files,87,2016-11-09 11:07:33,2016-11-09 11:07:33,Variant 36,36,Home improvement,New credit,25000.0,0,-inf,2016-11-09,2016-11-09,4
+103244,Application_1835983478,Validation,122,2016-11-16 10:51:48,2016-11-16 10:51:48,Variant 36,36,Home improvement,New credit,25000.0,0,-inf,2016-11-16,2016-11-16,4
+103245,Application_1835983478,Request incomplete files,122,2016-11-16 10:51:58,2016-11-16 10:51:58,Variant 36,36,Home improvement,New credit,25000.0,0,-inf,2016-11-16,2016-11-16,4
+103246,Application_1835983478,Validation,121,2016-11-17 08:14:02,2016-11-17 08:14:02,Variant 36,36,Home improvement,New credit,25000.0,0,-inf,2016-11-17,2016-11-17,4
+103247,Application_1835983478,Request incomplete files,29,2016-11-17 12:56:03,2016-11-17 12:56:03,Variant 36,36,Home improvement,New credit,25000.0,0,-inf,2016-11-17,2016-11-17,4
+103257,Application_1027449105,Complete application,60,2016-10-25 13:09:23,2016-10-25 13:38:55,Variant 4,4,Caravan / Camper,New credit,25000.0,30,3.4011973816621555,2016-10-25,2016-10-25,4
+103258,Application_1027449105,Calling client,60,2016-10-25 13:38:55,2016-10-25 13:38:55,Variant 4,4,Caravan / Camper,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+103259,Application_1027449105,Validation,122,2016-11-08 10:04:11,2016-11-08 10:04:11,Variant 4,4,Caravan / Camper,New credit,25000.0,0,-inf,2016-11-08,2016-11-08,4
+103260,Application_1027449105,Request incomplete files,29,2016-11-11 16:57:37,2016-11-11 16:57:37,Variant 4,4,Caravan / Camper,New credit,25000.0,0,-inf,2016-11-11,2016-11-11,4
+103261,Application_565689430,Calling client,42,2016-10-25 10:36:35,2016-10-25 10:36:35,Variant 20,20,Home improvement,New credit,75000.0,0,-inf,2016-10-25,2016-10-25,10
+103262,Application_565689430,Validation,53,2016-11-23 14:24:42,2016-11-23 14:30:23,Variant 20,20,Home improvement,New credit,75000.0,6,1.791759469228055,2016-11-23,2016-11-23,10
+103263,Application_565689430,Request incomplete files,53,2016-11-23 14:30:23,2016-11-23 14:30:23,Variant 20,20,Home improvement,New credit,75000.0,0,-inf,2016-11-23,2016-11-23,10
+103264,Application_565689430,Validation,119,2016-11-28 13:49:17,2016-11-28 13:49:17,Variant 20,20,Home improvement,New credit,75000.0,0,-inf,2016-11-28,2016-11-28,10
+103265,Application_565689430,Request incomplete files,29,2016-11-29 16:29:52,2016-11-29 16:29:52,Variant 20,20,Home improvement,New credit,75000.0,0,-inf,2016-11-29,2016-11-29,10
+103266,Application_565689430,Validation,66,2016-11-30 10:13:12,2016-11-30 10:13:12,Variant 20,20,Home improvement,New credit,75000.0,0,-inf,2016-11-30,2016-11-30,10
+103284,Application_118076535,Calling client,26,2016-10-25 13:29:42,2016-10-25 13:29:42,Variant 10,10,Car,New credit,7000.0,0,-inf,2016-10-25,2016-10-25,1
+103285,Application_1571539418,Complete application,104,2016-10-25 12:12:22,2016-10-25 12:25:51,Variant 5,5,Car,New credit,45000.0,14,2.6390573296152584,2016-10-25,2016-10-25,6
+103286,Application_1571539418,Calling client,104,2016-10-25 12:25:51,2016-10-25 12:25:51,Variant 5,5,Car,New credit,45000.0,0,-inf,2016-10-25,2016-10-25,6
+103287,Application_1571539418,Validation,131,2016-10-28 13:39:44,2016-10-28 13:39:44,Variant 5,5,Car,New credit,45000.0,0,-inf,2016-10-28,2016-10-28,6
+103288,Application_1571539418,Request incomplete files,131,2016-10-28 13:43:08,2016-10-28 13:43:08,Variant 5,5,Car,New credit,45000.0,0,-inf,2016-10-28,2016-10-28,6
+103289,Application_1571539418,Validation,123,2016-11-02 13:06:58,2016-11-02 13:06:58,Variant 5,5,Car,New credit,45000.0,0,-inf,2016-11-02,2016-11-02,6
+103290,Application_1571539418,Request incomplete files,30,2016-11-07 14:40:37,2016-11-07 14:40:37,Variant 5,5,Car,New credit,45000.0,0,-inf,2016-11-07,2016-11-07,6
+103291,Application_1571539418,Validation,118,2016-11-08 09:34:00,2016-11-08 09:34:00,Variant 5,5,Car,New credit,45000.0,0,-inf,2016-11-08,2016-11-08,6
+103292,Application_1180779910,Complete application,24,2016-10-25 12:23:49,2016-10-25 12:23:49,Variant 1,1,Car,New credit,11000.0,0,-inf,2016-10-25,2016-10-25,2
+103293,Application_1180779910,Calling client,2,2016-10-25 16:45:57,2016-10-25 16:45:57,Variant 1,1,Car,New credit,11000.0,0,-inf,2016-10-25,2016-10-25,2
+103294,Application_676903448,Complete application,80,2016-10-25 12:50:30,2016-10-25 13:07:38,Variant 5,5,Home improvement,New credit,10000.0,18,2.8903717578961645,2016-10-25,2016-10-25,2
+103295,Application_676903448,Calling client,80,2016-10-25 13:07:38,2016-10-25 13:07:38,Variant 5,5,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103296,Application_676903448,Validation,90,2016-11-18 10:26:08,2016-11-21 11:34:20,Variant 5,5,Home improvement,New credit,10000.0,69,4.23410650459726,2016-11-18,2016-11-21,2
+103297,Application_676903448,Request incomplete files,90,2016-11-21 11:34:20,2016-11-21 11:34:20,Variant 5,5,Home improvement,New credit,10000.0,0,-inf,2016-11-21,2016-11-21,2
+103298,Application_676903448,Validation,90,2016-11-23 15:39:11,2016-11-24 08:53:44,Variant 5,5,Home improvement,New credit,10000.0,1035,6.942156705699469,2016-11-23,2016-11-24,2
+103299,Application_676903448,Request incomplete files,90,2016-11-24 08:53:44,2016-11-24 08:53:44,Variant 5,5,Home improvement,New credit,10000.0,0,-inf,2016-11-24,2016-11-24,2
+103300,Application_676903448,Validation,119,2016-11-25 10:13:24,2016-11-25 10:13:24,Variant 5,5,Home improvement,New credit,10000.0,0,-inf,2016-11-25,2016-11-25,2
+103301,Application_1292771933,Complete application,10,2016-10-25 20:13:38,2016-10-25 20:13:38,Variant 1,1,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+103302,Application_1292771933,Calling client,62,2016-10-28 09:15:17,2016-10-28 09:15:17,Variant 1,1,Home improvement,New credit,25000.0,0,-inf,2016-10-28,2016-10-28,4
+103303,Application_1281227660,Calling client,26,2016-10-25 17:38:35,2016-10-25 17:38:35,Variant 14,14,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103304,Application_1281227660,Validation,68,2016-11-17 11:23:03,2016-11-22 11:47:20,Variant 14,14,Car,New credit,15000.0,25,3.2188758248682006,2016-11-17,2016-11-22,2
+103313,Application_2067187791,Calling client,67,2016-10-25 13:47:15,2016-10-25 13:47:15,Variant 14,14,Existing loan takeover,New credit,75000.0,0,-inf,2016-10-25,2016-10-25,10
+103314,Application_2067187791,Validation,119,2016-11-08 13:52:22,2016-11-08 13:52:22,Variant 14,14,Existing loan takeover,New credit,75000.0,0,-inf,2016-11-08,2016-11-08,10
+103315,Application_203590810,Calling client,71,2016-10-25 09:42:57,2016-10-25 09:42:57,Variant 14,14,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103316,Application_203590810,Validation,107,2016-10-31 12:10:22,2016-10-31 12:10:22,Variant 14,14,Home improvement,New credit,5000.0,0,-inf,2016-10-31,2016-10-31,1
+103326,Application_835755263,Complete application,80,2016-10-25 10:25:02,2016-10-25 10:42:08,Variant 5,5,Car,New credit,15000.0,18,2.8903717578961645,2016-10-25,2016-10-25,2
+103327,Application_835755263,Calling client,80,2016-10-25 10:42:08,2016-10-25 10:42:08,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103328,Application_835755263,Validation,93,2016-11-07 15:25:26,2016-11-17 16:42:11,Variant 5,5,Car,New credit,15000.0,77,4.343805421853684,2016-11-07,2016-11-17,2
+103329,Application_835755263,Request incomplete files,99,2016-11-09 13:27:56,2016-11-09 13:27:56,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-09,2016-11-09,2
+103330,Application_835755263,Validation,122,2016-11-10 16:10:17,2016-11-10 16:10:17,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-10,2016-11-10,2
+103331,Application_835755263,Request incomplete files,75,2016-11-11 13:44:55,2016-11-11 13:44:55,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-11,2016-11-11,2
+103332,Application_835755263,Validation,134,2016-11-16 16:15:04,2016-11-16 16:15:04,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-16,2016-11-16,2
+103334,Application_1559916934,Calling client,28,2016-10-25 10:21:18,2016-10-25 10:21:18,Variant 16,16,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103335,Application_1559916934,Validation,121,2016-10-31 09:49:59,2016-10-31 09:49:59,Variant 16,16,Home improvement,New credit,15000.0,0,-inf,2016-10-31,2016-10-31,2
+103336,Application_1559916934,Request incomplete files,63,2016-11-03 10:52:44,2016-11-08 15:48:28,Variant 16,16,Home improvement,New credit,15000.0,296,5.69035945432406,2016-11-03,2016-11-08,2
+103337,Application_1909723515,Calling client,61,2016-10-25 10:57:29,2016-10-25 10:57:29,Variant 13,13,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103338,Application_1909723515,Validation,93,2016-11-02 11:07:39,2016-11-04 09:43:37,Variant 13,13,Home improvement,New credit,10000.0,1356,7.212294468500341,2016-11-02,2016-11-04,2
+103339,Application_1909723515,Request incomplete files,93,2016-11-04 09:43:37,2016-11-04 09:43:37,Variant 13,13,Home improvement,New credit,10000.0,0,-inf,2016-11-04,2016-11-04,2
+103340,Application_1909723515,Validation,65,2016-11-04 11:01:08,2016-11-04 11:01:08,Variant 13,13,Home improvement,New credit,10000.0,0,-inf,2016-11-04,2016-11-04,2
+103352,Application_1291843877,Calling client,60,2016-10-25 11:57:44,2016-10-25 11:57:44,Variant 13,13,Existing loan takeover,New credit,5700.0,0,-inf,2016-10-25,2016-10-25,1
+103353,Application_1291843877,Validation,123,2016-11-14 13:54:43,2016-11-14 13:54:43,Variant 13,13,Existing loan takeover,New credit,5700.0,0,-inf,2016-11-14,2016-11-14,1
+103354,Application_1291843877,Request incomplete files,100,2016-11-15 13:16:28,2016-11-15 13:16:28,Variant 13,13,Existing loan takeover,New credit,5700.0,0,-inf,2016-11-15,2016-11-15,1
+103355,Application_1291843877,Validation,126,2016-11-16 16:26:41,2016-11-16 16:26:41,Variant 13,13,Existing loan takeover,New credit,5700.0,0,-inf,2016-11-16,2016-11-16,1
+103364,Application_1035618893,Calling client,71,2016-10-25 10:50:51,2016-10-25 10:50:51,Variant 20,20,Existing loan takeover,New credit,53833.0,0,-inf,2016-10-25,2016-10-25,8
+103365,Application_1035618893,Validation,83,2016-11-02 15:44:28,2016-11-07 14:19:20,Variant 20,20,Existing loan takeover,New credit,53833.0,1355,7.2115567333138015,2016-11-02,2016-11-07,8
+103366,Application_1035618893,Request incomplete files,63,2016-11-07 14:19:20,2016-11-08 09:24:31,Variant 20,20,Existing loan takeover,New credit,53833.0,1146,7.044032897274685,2016-11-07,2016-11-08,8
+103367,Application_1035618893,Validation,63,2016-11-08 09:24:31,2016-11-08 09:24:31,Variant 20,20,Existing loan takeover,New credit,53833.0,0,-inf,2016-11-08,2016-11-08,8
+103368,Application_1035618893,Request incomplete files,83,2016-11-10 13:06:04,2016-11-10 13:06:04,Variant 20,20,Existing loan takeover,New credit,53833.0,0,-inf,2016-11-10,2016-11-10,8
+103369,Application_1035618893,Validation,123,2016-11-11 13:17:39,2016-11-11 13:17:39,Variant 20,20,Existing loan takeover,New credit,53833.0,0,-inf,2016-11-11,2016-11-11,8
+103370,Application_115387399,Calling client,58,2016-10-25 11:07:57,2016-10-25 11:07:57,Variant 10,10,Home improvement,New credit,8000.0,0,-inf,2016-10-25,2016-10-25,2
+103408,Application_1152706558,Calling client,67,2016-10-25 12:24:21,2016-10-25 12:24:21,Variant 14,14,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103409,Application_1152706558,Validation,27,2016-11-08 11:40:54,2016-11-08 11:40:54,Variant 14,14,Home improvement,New credit,10000.0,0,-inf,2016-11-08,2016-11-08,2
+103410,Application_828330778,Calling client,71,2016-10-25 11:36:03,2016-10-25 11:36:03,Variant 373,373,Car,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+103411,Application_828330778,Validation,68,2016-10-31 12:05:09,2016-11-02 11:35:38,Variant 373,373,Car,New credit,25000.0,1411,7.252053951852814,2016-10-31,2016-11-02,4
+103412,Application_828330778,Request incomplete files,68,2016-11-02 11:35:38,2016-11-02 11:35:38,Variant 373,373,Car,New credit,25000.0,0,-inf,2016-11-02,2016-11-02,4
+103413,Application_828330778,Validation,68,2016-11-04 07:20:22,2016-11-04 11:01:44,Variant 373,373,Car,New credit,25000.0,222,5.402677381872279,2016-11-04,2016-11-04,4
+103414,Application_828330778,Request incomplete files,68,2016-11-04 11:01:44,2016-11-04 11:01:44,Variant 373,373,Car,New credit,25000.0,0,-inf,2016-11-04,2016-11-04,4
+103415,Application_828330778,Validation,68,2016-11-14 10:31:40,2016-11-14 11:49:56,Variant 373,373,Car,New credit,25000.0,79,4.3694478524670215,2016-11-14,2016-11-14,4
+103416,Application_828330778,Request incomplete files,68,2016-11-14 11:49:56,2016-11-14 11:49:56,Variant 373,373,Car,New credit,25000.0,0,-inf,2016-11-14,2016-11-14,4
+103417,Application_828330778,Request incomplete files,67,2016-11-14 12:09:28,2016-11-14 12:09:28,Variant 373,373,Car,New credit,25000.0,0,-inf,2016-11-14,2016-11-14,4
+103422,Application_1988195018,Complete application,80,2016-10-25 14:05:00,2016-10-25 14:05:00,Variant 1,1,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103423,Application_1988195018,Calling client,80,2016-10-25 14:24:32,2016-10-25 14:24:32,Variant 1,1,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103465,Application_1147242139,Calling client,42,2016-10-25 12:21:27,2016-10-25 12:21:27,Variant 16,16,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103466,Application_1147242139,Validation,118,2016-11-02 11:11:19,2016-11-02 11:11:19,Variant 16,16,Home improvement,New credit,5000.0,0,-inf,2016-11-02,2016-11-02,1
+103467,Application_1147242139,Request incomplete files,83,2016-11-07 14:53:41,2016-11-07 14:53:41,Variant 16,16,Home improvement,New credit,5000.0,0,-inf,2016-11-07,2016-11-07,1
+103477,Application_1281219916,Calling client,42,2016-10-25 12:33:32,2016-10-25 12:33:32,Variant 20,20,Home improvement,New credit,30000.0,0,-inf,2016-10-25,2016-10-25,4
+103478,Application_1281219916,Validation,83,2016-11-22 10:31:26,2016-11-24 13:50:05,Variant 20,20,Home improvement,New credit,30000.0,199,5.293304824724492,2016-11-22,2016-11-24,4
+103479,Application_1281219916,Request incomplete files,83,2016-11-24 13:50:05,2016-11-24 13:50:05,Variant 20,20,Home improvement,New credit,30000.0,0,-inf,2016-11-24,2016-11-24,4
+103480,Application_1281219916,Validation,83,2016-12-07 12:31:36,2016-12-23 07:47:20,Variant 20,20,Home improvement,New credit,30000.0,1156,7.052721049232323,2016-12-07,2016-12-23,4
+103481,Application_1281219916,Request incomplete files,83,2016-12-08 08:11:31,2016-12-08 08:11:31,Variant 20,20,Home improvement,New credit,30000.0,0,-inf,2016-12-08,2016-12-08,4
+103482,Application_1281219916,Validation,67,2016-12-22 15:07:44,2016-12-22 15:07:44,Variant 20,20,Home improvement,New credit,30000.0,0,-inf,2016-12-22,2016-12-22,4
+103511,Application_1757112551,Complete application,80,2016-10-25 14:58:31,2016-10-25 15:13:55,Variant 1,1,Car,New credit,15000.0,16,2.772588722239781,2016-10-25,2016-10-25,2
+103512,Application_1757112551,Calling client,80,2016-10-25 15:13:55,2016-10-25 15:13:55,Variant 1,1,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103531,Application_561835971,Complete application,3,2016-10-25 17:54:49,2016-10-25 17:59:46,Variant 4,4,Home improvement,New credit,5000.0,5,1.6094379124341003,2016-10-25,2016-10-25,1
+103532,Application_561835971,Calling client,3,2016-10-25 17:59:46,2016-10-25 17:59:46,Variant 4,4,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103533,Application_561835971,Validation,119,2016-11-01 10:37:05,2016-11-01 10:37:05,Variant 4,4,Home improvement,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+103534,Application_561835971,Request incomplete files,87,2016-11-03 14:45:36,2016-11-03 14:45:36,Variant 4,4,Home improvement,New credit,5000.0,0,-inf,2016-11-03,2016-11-03,1
+103543,Application_413047262,Calling client,67,2016-10-25 09:35:58,2016-10-25 09:35:58,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103544,Application_413047262,Validation,129,2016-10-31 13:25:30,2016-10-31 13:25:30,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-10-31,2016-10-31,2
+103545,Application_413047262,Request incomplete files,75,2016-11-01 18:07:42,2016-11-01 18:07:42,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-11-01,2016-11-01,2
+103546,Application_413047262,Validation,123,2016-11-02 09:01:36,2016-11-02 09:01:36,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-11-02,2016-11-02,2
+103547,Application_1151306652,Complete application,80,2016-10-25 14:45:43,2016-10-25 14:45:43,Variant 6,6,"Other, see explanation",New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103548,Application_1151306652,Calling client,60,2016-10-26 12:56:34,2016-10-26 12:56:34,Variant 6,6,"Other, see explanation",New credit,5000.0,0,-inf,2016-10-26,2016-10-26,1
+103549,Application_1151306652,Validation,126,2016-11-02 09:42:57,2016-11-02 09:43:00,Variant 6,6,"Other, see explanation",New credit,5000.0,1,0.0,2016-11-02,2016-11-02,1
+103550,Application_1151306652,Request incomplete files,126,2016-11-02 09:43:00,2016-11-02 09:43:00,Variant 6,6,"Other, see explanation",New credit,5000.0,0,-inf,2016-11-02,2016-11-02,1
+103551,Application_1151306652,Validation,107,2016-11-07 11:17:05,2016-11-07 11:17:05,Variant 6,6,"Other, see explanation",New credit,5000.0,0,-inf,2016-11-07,2016-11-07,1
+103552,Application_1151306652,Request incomplete files,83,2016-11-10 16:19:09,2016-11-10 16:19:09,Variant 6,6,"Other, see explanation",New credit,5000.0,0,-inf,2016-11-10,2016-11-10,1
+103594,Application_435186946,Calling client,24,2016-10-25 15:05:28,2016-10-25 15:05:28,Variant 10,10,"Other, see explanation",New credit,9000.0,0,-inf,2016-10-25,2016-10-25,2
+103637,Application_1769060911,Complete application,80,2016-10-25 15:48:27,2016-10-25 15:48:27,Variant 2,2,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103638,Application_1769060911,Calling client,24,2016-10-25 16:11:45,2016-10-25 16:11:45,Variant 2,2,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103639,Application_1769060911,Validation,123,2016-11-02 09:52:08,2016-11-02 09:52:08,Variant 2,2,Home improvement,New credit,15000.0,0,-inf,2016-11-02,2016-11-02,2
+103660,Application_2022507317,Complete application,80,2016-10-25 15:57:53,2016-10-25 15:57:53,Variant 4,4,Car,New credit,17750.0,0,-inf,2016-10-25,2016-10-25,3
+103661,Application_2022507317,Calling client,66,2016-10-25 16:21:54,2016-10-25 16:21:54,Variant 4,4,Car,New credit,17750.0,0,-inf,2016-10-25,2016-10-25,3
+103662,Application_2022507317,Validation,123,2016-10-31 09:23:51,2016-10-31 09:23:51,Variant 4,4,Car,New credit,17750.0,0,-inf,2016-10-31,2016-10-31,3
+103663,Application_2022507317,Request incomplete files,100,2016-11-02 13:52:19,2016-11-02 13:52:19,Variant 4,4,Car,New credit,17750.0,0,-inf,2016-11-02,2016-11-02,3
+103664,Application_2128191185,Complete application,54,2016-10-25 15:15:46,2016-10-25 15:15:46,Variant 1,1,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103665,Application_2128191185,Calling client,2,2016-10-26 10:16:26,2016-10-26 10:16:26,Variant 1,1,Car,New credit,20000.0,0,-inf,2016-10-26,2016-10-26,3
+103674,Application_918979468,Calling client,24,2016-10-25 17:02:56,2016-10-25 17:02:56,Variant 10,10,"Other, see explanation",New credit,50000.0,0,-inf,2016-10-25,2016-10-25,7
+103685,Application_37787490,Complete application,80,2016-10-25 16:41:40,2016-10-25 16:41:40,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-10-25,2016-10-25,3
+103686,Application_37787490,Calling client,71,2016-10-26 20:05:27,2016-10-26 20:05:27,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-10-26,2016-10-26,3
+103687,Application_37787490,Validation,27,2016-11-02 14:57:32,2016-11-02 15:00:25,Variant 23,23,Existing loan takeover,New credit,22000.0,3,1.0986122886681098,2016-11-02,2016-11-02,3
+103688,Application_37787490,Request incomplete files,27,2016-11-02 15:00:25,2016-11-02 15:00:25,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-11-02,2016-11-02,3
+103689,Application_37787490,Validation,68,2016-11-03 09:59:05,2016-11-09 11:30:05,Variant 23,23,Existing loan takeover,New credit,22000.0,91,4.51085950651685,2016-11-03,2016-11-09,3
+103690,Application_37787490,Request incomplete files,27,2016-11-03 10:37:54,2016-11-03 10:37:54,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-11-03,2016-11-03,3
+103691,Application_37787490,Validation,133,2016-11-03 20:30:43,2016-11-03 20:30:43,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-11-03,2016-11-03,3
+103692,Application_37787490,Request incomplete files,68,2016-11-09 11:30:05,2016-11-09 11:30:05,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-11-09,2016-11-09,3
+103693,Application_37787490,Validation,122,2016-11-10 11:38:21,2016-11-10 11:38:21,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-11-10,2016-11-10,3
+103694,Application_37787490,Request incomplete files,68,2016-11-10 12:36:07,2016-11-10 12:36:07,Variant 23,23,Existing loan takeover,New credit,22000.0,0,-inf,2016-11-10,2016-11-10,3
+103732,Application_1259391556,Calling client,42,2016-10-25 14:56:06,2016-10-25 14:56:06,Variant 21,21,Existing loan takeover,New credit,6300.0,0,-inf,2016-10-25,2016-10-25,1
+103733,Application_1259391556,Validation,27,2016-11-01 09:39:39,2016-11-01 09:39:39,Variant 21,21,Existing loan takeover,New credit,6300.0,0,-inf,2016-11-01,2016-11-01,1
+103734,Application_1259391556,Request incomplete files,100,2016-11-03 13:20:59,2016-11-03 13:20:59,Variant 21,21,Existing loan takeover,New credit,6300.0,0,-inf,2016-11-03,2016-11-03,1
+103735,Application_1259391556,Validation,27,2016-11-04 10:16:32,2016-11-04 10:16:32,Variant 21,21,Existing loan takeover,New credit,6300.0,0,-inf,2016-11-04,2016-11-04,1
+103736,Application_1259391556,Request incomplete files,100,2016-11-04 12:21:07,2016-11-04 12:21:07,Variant 21,21,Existing loan takeover,New credit,6300.0,0,-inf,2016-11-04,2016-11-04,1
+103739,Application_398065440,Calling client,42,2016-10-25 15:06:33,2016-10-25 15:06:33,Variant 10,10,"Other, see explanation",New credit,30000.0,0,-inf,2016-10-25,2016-10-25,4
+103740,Application_31519304,Complete application,79,2016-10-25 17:49:29,2016-10-25 18:09:56,Variant 1,1,Existing loan takeover,New credit,29000.0,21,3.044522437723423,2016-10-25,2016-10-25,4
+103741,Application_31519304,Calling client,79,2016-10-25 18:09:56,2016-10-25 18:09:56,Variant 1,1,Existing loan takeover,New credit,29000.0,0,-inf,2016-10-25,2016-10-25,4
+103750,Application_1669477442,Calling client,54,2016-10-25 16:28:57,2016-10-25 16:28:57,Variant 14,14,Car,New credit,6000.0,0,-inf,2016-10-25,2016-10-25,1
+103751,Application_1669477442,Validation,27,2016-11-03 14:37:38,2016-11-03 14:37:38,Variant 14,14,Car,New credit,6000.0,0,-inf,2016-11-03,2016-11-03,1
+103752,Application_714768274,Calling client,42,2016-10-25 15:40:04,2016-10-25 15:40:04,Variant 10,10,Car,New credit,8000.0,0,-inf,2016-10-25,2016-10-25,2
+103753,Application_354855594,Calling client,52,2016-10-25 12:33:46,2016-10-25 12:33:46,Variant 13,13,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103754,Application_354855594,Validation,133,2016-11-05 13:17:22,2016-11-05 13:17:25,Variant 13,13,Home improvement,New credit,10000.0,1,0.0,2016-11-05,2016-11-05,2
+103755,Application_354855594,Request incomplete files,133,2016-11-05 13:17:25,2016-11-05 13:17:25,Variant 13,13,Home improvement,New credit,10000.0,0,-inf,2016-11-05,2016-11-05,2
+103756,Application_354855594,Validation,133,2016-11-08 19:46:53,2016-11-08 19:46:53,Variant 13,13,Home improvement,New credit,10000.0,0,-inf,2016-11-08,2016-11-08,2
+103780,Application_1481242369,Calling client,42,2016-10-25 16:14:54,2016-10-25 16:14:54,Variant 14,14,Not speficied,New credit,13500.0,0,-inf,2016-10-25,2016-10-25,2
+103781,Application_1481242369,Validation,118,2016-10-31 13:50:03,2016-10-31 13:50:03,Variant 14,14,Not speficied,New credit,13500.0,0,-inf,2016-10-31,2016-10-31,2
+103813,Application_946802204,Complete application,80,2016-10-25 15:32:53,2016-10-25 16:25:18,Variant 2,2,Existing loan takeover,New credit,19500.0,53,3.970291913552122,2016-10-25,2016-10-25,3
+103814,Application_946802204,Calling client,80,2016-10-25 16:25:18,2016-10-25 16:25:18,Variant 2,2,Existing loan takeover,New credit,19500.0,0,-inf,2016-10-25,2016-10-25,3
+103815,Application_946802204,Validation,122,2016-11-08 12:11:59,2016-11-08 12:11:59,Variant 2,2,Existing loan takeover,New credit,19500.0,0,-inf,2016-11-08,2016-11-08,3
+103836,Application_481277636,Calling client,71,2016-10-25 15:21:49,2016-10-25 15:21:49,Variant 10,10,Remaining debt home,New credit,45000.0,0,-inf,2016-10-25,2016-10-25,6
+103837,Application_910003252,Calling client,44,2016-10-25 17:30:14,2016-10-25 17:30:14,Variant 10,10,Car,New credit,6000.0,0,-inf,2016-10-25,2016-10-25,1
+103838,Application_1099663893,Complete application,44,2016-10-25 20:22:27,2016-10-25 20:47:09,Variant 1,1,Existing loan takeover,New credit,55000.0,25,3.2188758248682006,2016-10-25,2016-10-25,8
+103839,Application_1099663893,Calling client,44,2016-10-25 20:47:09,2016-10-25 20:47:09,Variant 1,1,Existing loan takeover,New credit,55000.0,0,-inf,2016-10-25,2016-10-25,8
+103851,Application_1665515241,Calling client,67,2016-10-25 15:28:59,2016-10-25 15:28:59,Variant 40,40,Home improvement,New credit,35000.0,0,-inf,2016-10-25,2016-10-25,5
+103852,Application_1665515241,Validation,83,2016-11-14 13:21:51,2016-11-16 11:26:09,Variant 40,40,Home improvement,New credit,35000.0,1325,7.1891677384203225,2016-11-14,2016-11-16,5
+103853,Application_1665515241,Request incomplete files,67,2016-11-16 11:26:09,2016-11-21 14:48:08,Variant 40,40,Home improvement,New credit,35000.0,202,5.308267697401205,2016-11-16,2016-11-21,5
+103854,Application_1665515241,Validation,109,2016-11-18 14:56:43,2016-11-23 14:47:27,Variant 40,40,Home improvement,New credit,35000.0,1431,7.266128779556451,2016-11-18,2016-11-23,5
+103855,Application_1665515241,Request incomplete files,109,2016-11-21 12:56:53,2016-11-21 12:56:53,Variant 40,40,Home improvement,New credit,35000.0,0,-inf,2016-11-21,2016-11-21,5
+103856,Application_1665515241,Validation,67,2016-11-21 14:48:08,2016-11-21 14:48:08,Variant 40,40,Home improvement,New credit,35000.0,0,-inf,2016-11-21,2016-11-21,5
+103857,Application_1665515241,Request incomplete files,109,2016-11-23 14:47:27,2016-11-23 14:47:27,Variant 40,40,Home improvement,New credit,35000.0,0,-inf,2016-11-23,2016-11-23,5
+103858,Application_1665515241,Validation,122,2016-11-24 13:09:02,2016-11-24 13:09:02,Variant 40,40,Home improvement,New credit,35000.0,0,-inf,2016-11-24,2016-11-24,5
+103868,Application_1874674743,Calling client,66,2016-10-25 16:49:45,2016-10-25 16:49:45,Variant 16,16,Existing loan takeover,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103869,Application_1874674743,Validation,131,2016-11-01 11:54:51,2016-11-01 11:54:51,Variant 16,16,Existing loan takeover,New credit,15000.0,0,-inf,2016-11-01,2016-11-01,2
+103870,Application_1874674743,Request incomplete files,87,2016-11-03 13:43:28,2016-11-03 13:43:28,Variant 16,16,Existing loan takeover,New credit,15000.0,0,-inf,2016-11-03,2016-11-03,2
+103871,Application_129565630,Complete application,3,2016-10-25 19:24:53,2016-10-25 19:31:52,Variant 4,4,Car,New credit,5000.0,7,1.9459101490553132,2016-10-25,2016-10-25,1
+103872,Application_129565630,Calling client,3,2016-10-25 19:31:52,2016-10-25 19:31:52,Variant 4,4,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103873,Application_129565630,Validation,121,2016-11-07 10:35:55,2016-11-07 10:35:55,Variant 4,4,Car,New credit,5000.0,0,-inf,2016-11-07,2016-11-07,1
+103874,Application_129565630,Request incomplete files,93,2016-11-08 14:12:09,2016-11-08 14:12:09,Variant 4,4,Car,New credit,5000.0,0,-inf,2016-11-08,2016-11-08,1
+103882,Application_1263939811,Calling client,61,2016-10-25 10:04:42,2016-10-25 10:04:42,Variant 16,16,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103883,Application_1263939811,Validation,68,2016-10-28 10:13:12,2016-11-01 09:58:45,Variant 16,16,Car,New credit,15000.0,1426,7.262628600974241,2016-10-28,2016-11-01,2
+103884,Application_1263939811,Request incomplete files,68,2016-11-01 09:58:45,2016-11-01 09:58:45,Variant 16,16,Car,New credit,15000.0,0,-inf,2016-11-01,2016-11-01,2
+103885,Application_245123210,Complete application,80,2016-10-25 16:50:07,2016-10-25 16:50:07,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103886,Application_245123210,Calling client,41,2016-11-01 16:17:23,2016-11-01 16:17:23,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-01,2016-11-01,2
+103887,Application_245123210,Validation,122,2016-11-11 11:36:20,2016-11-11 11:36:41,Variant 9,9,Car,New credit,10000.0,1,0.0,2016-11-11,2016-11-11,2
+103888,Application_245123210,Request incomplete files,122,2016-11-11 11:36:41,2016-11-11 11:36:41,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-11,2016-11-11,2
+103889,Application_245123210,Validation,27,2016-11-14 09:43:12,2016-11-14 09:43:12,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-14,2016-11-14,2
+103890,Application_245123210,Request incomplete files,100,2016-11-14 12:31:35,2016-11-14 12:31:35,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-14,2016-11-14,2
+103891,Application_245123210,Validation,133,2016-11-15 17:44:20,2016-11-15 17:44:20,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-15,2016-11-15,2
+103892,Application_245123210,Request incomplete files,100,2016-11-16 08:44:18,2016-11-16 08:44:18,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-16,2016-11-16,2
+103896,Application_684289625,Calling client,52,2016-10-25 09:42:16,2016-10-25 09:42:16,Variant 10,10,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103902,Application_227670423,Calling client,24,2016-10-25 09:56:51,2016-10-25 09:56:51,Variant 16,16,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103903,Application_227670423,Validation,131,2016-11-01 10:14:16,2016-11-01 10:14:16,Variant 16,16,Home improvement,New credit,10000.0,0,-inf,2016-11-01,2016-11-01,2
+103904,Application_227670423,Request incomplete files,90,2016-11-03 13:21:58,2016-11-03 13:21:58,Variant 16,16,Home improvement,New credit,10000.0,0,-inf,2016-11-03,2016-11-03,2
+103913,Application_1801822059,Calling client,2,2016-10-25 11:42:12,2016-10-25 11:42:12,Variant 14,14,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103914,Application_1801822059,Validation,27,2016-11-03 13:55:09,2016-11-03 13:55:09,Variant 14,14,Home improvement,New credit,10000.0,0,-inf,2016-11-03,2016-11-03,2
+103915,Application_1444191625,Calling client,28,2016-10-25 11:18:01,2016-10-25 11:18:01,Variant 14,14,Existing loan takeover,New credit,7000.0,0,-inf,2016-10-25,2016-10-25,1
+103916,Application_1444191625,Validation,118,2016-11-02 11:41:51,2016-11-02 11:41:51,Variant 14,14,Existing loan takeover,New credit,7000.0,0,-inf,2016-11-02,2016-11-02,1
+103917,Application_811825935,Calling client,24,2016-10-25 10:36:26,2016-10-25 10:36:26,Variant 21,21,Not speficied,New credit,27500.0,0,-inf,2016-10-25,2016-10-25,4
+103918,Application_811825935,Validation,107,2016-10-31 14:46:01,2016-10-31 14:49:10,Variant 21,21,Not speficied,New credit,27500.0,4,1.3862943611198906,2016-10-31,2016-10-31,4
+103919,Application_811825935,Request incomplete files,107,2016-10-31 14:49:10,2016-10-31 14:49:10,Variant 21,21,Not speficied,New credit,27500.0,0,-inf,2016-10-31,2016-10-31,4
+103920,Application_811825935,Validation,123,2016-11-01 09:34:19,2016-11-01 09:34:19,Variant 21,21,Not speficied,New credit,27500.0,0,-inf,2016-11-01,2016-11-01,4
+103921,Application_811825935,Request incomplete files,30,2016-11-02 14:24:05,2016-11-02 14:24:05,Variant 21,21,Not speficied,New credit,27500.0,0,-inf,2016-11-02,2016-11-02,4
+103922,Application_440695787,Calling client,40,2016-10-25 13:58:01,2016-10-25 13:58:01,Variant 20,20,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103923,Application_440695787,Validation,27,2016-11-01 09:49:37,2016-11-01 09:55:00,Variant 20,20,Car,New credit,5000.0,6,1.791759469228055,2016-11-01,2016-11-01,1
+103924,Application_440695787,Request incomplete files,27,2016-11-01 09:55:01,2016-11-01 09:55:01,Variant 20,20,Car,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+103925,Application_440695787,Validation,126,2016-11-02 08:53:52,2016-11-02 08:53:52,Variant 20,20,Car,New credit,5000.0,0,-inf,2016-11-02,2016-11-02,1
+103926,Application_440695787,Request incomplete files,100,2016-11-03 15:04:54,2016-11-03 15:04:54,Variant 20,20,Car,New credit,5000.0,0,-inf,2016-11-03,2016-11-03,1
+103927,Application_440695787,Validation,131,2016-11-23 16:32:38,2016-11-23 16:32:38,Variant 20,20,Car,New credit,5000.0,0,-inf,2016-11-23,2016-11-23,1
+103928,Application_793873060,Calling client,60,2016-10-25 10:56:21,2016-10-25 10:56:21,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103929,Application_793873060,Validation,118,2016-10-31 10:28:51,2016-10-31 10:28:51,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-10-31,2016-10-31,2
+103930,Application_793873060,Request incomplete files,109,2016-11-02 14:48:33,2016-11-02 14:48:33,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-11-02,2016-11-02,2
+103931,Application_793873060,Validation,125,2016-11-03 08:48:12,2016-11-03 08:48:12,Variant 13,13,Car,New credit,10000.0,0,-inf,2016-11-03,2016-11-03,2
+103932,Application_1173289988,Calling client,24,2016-10-25 11:00:57,2016-10-25 11:00:57,Variant 10,10,"Other, see explanation",New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103933,Application_1738270116,Calling client,21,2016-10-25 14:30:12,2016-10-25 14:30:12,Variant 10,10,"Other, see explanation",New credit,70000.0,0,-inf,2016-10-25,2016-10-25,10
+103934,Application_346829278,Calling client,40,2016-10-25 16:34:32,2016-10-25 16:34:32,Variant 16,16,Car,New credit,23000.0,0,-inf,2016-10-25,2016-10-25,4
+103935,Application_346829278,Validation,27,2016-11-02 11:57:59,2016-11-02 12:03:18,Variant 16,16,Car,New credit,23000.0,6,1.791759469228055,2016-11-02,2016-11-02,4
+103936,Application_346829278,Request incomplete files,27,2016-11-02 12:03:18,2016-11-02 12:03:18,Variant 16,16,Car,New credit,23000.0,0,-inf,2016-11-02,2016-11-02,4
+103937,Application_1618215402,Complete application,80,2016-10-25 16:13:58,2016-10-25 16:13:58,Variant 6,6,Existing loan takeover,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103938,Application_1618215402,Calling client,3,2016-10-26 09:47:00,2016-10-26 09:47:00,Variant 6,6,Existing loan takeover,New credit,10000.0,0,-inf,2016-10-26,2016-10-26,2
+103939,Application_1618215402,Validation,93,2016-11-17 10:37:53,2016-11-18 11:30:47,Variant 6,6,Existing loan takeover,New credit,10000.0,53,3.970291913552122,2016-11-17,2016-11-18,2
+103940,Application_1618215402,Request incomplete files,93,2016-11-18 11:30:47,2016-11-18 11:30:47,Variant 6,6,Existing loan takeover,New credit,10000.0,0,-inf,2016-11-18,2016-11-18,2
+103941,Application_1618215402,Validation,133,2016-11-21 15:17:45,2016-11-21 15:17:45,Variant 6,6,Existing loan takeover,New credit,10000.0,0,-inf,2016-11-21,2016-11-21,2
+103942,Application_1618215402,Request incomplete files,100,2016-11-22 08:49:18,2016-11-22 08:49:18,Variant 6,6,Existing loan takeover,New credit,10000.0,0,-inf,2016-11-22,2016-11-22,2
+103943,Application_1706151514,Calling client,26,2016-10-25 20:27:39,2016-10-25 20:27:39,Variant 10,10,Home improvement,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103944,Application_1084951999,Automatic initial assessment,5,2016-10-25 08:10:36,2016-10-25 08:11:11,Variant 25,25,Home improvement,New credit,10000.0,1,0.0,2016-10-25,2016-10-25,2
+103945,Application_1084951999,Complete application,5,2016-10-25 08:11:11,2016-10-25 08:11:11,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103946,Application_1084951999,Calling client,10,2016-10-31 11:00:17,2016-10-31 11:00:17,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-10-31,2016-10-31,2
+103947,Application_1084951999,Validation,119,2016-11-08 14:02:03,2016-11-08 14:02:03,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-11-08,2016-11-08,2
+103948,Application_1084951999,Request incomplete files,67,2016-11-11 10:02:16,2016-11-14 14:17:50,Variant 25,25,Home improvement,New credit,10000.0,256,5.545177444479562,2016-11-11,2016-11-14,2
+103949,Application_1084951999,Validation,120,2016-11-12 15:50:12,2016-11-12 15:50:12,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-11-12,2016-11-12,2
+103950,Application_1084951999,Request incomplete files,99,2016-11-14 10:12:41,2016-11-14 10:12:41,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-11-14,2016-11-14,2
+103951,Application_1084951999,Validation,67,2016-11-14 14:17:50,2016-11-14 14:17:50,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-11-14,2016-11-14,2
+103952,Application_1084951999,Request incomplete files,109,2016-11-17 15:56:24,2016-11-17 15:56:24,Variant 25,25,Home improvement,New credit,10000.0,0,-inf,2016-11-17,2016-11-17,2
+103953,Application_1108410496,Calling client,60,2016-10-25 14:08:59,2016-10-25 14:08:59,Variant 14,14,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103954,Application_1108410496,Validation,131,2016-11-01 11:12:22,2016-11-01 11:12:22,Variant 14,14,Car,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+103955,Application_1331678337,Automatic initial assessment,5,2016-10-25 08:05:09,2016-10-25 08:05:44,Variant 8,8,Car,New credit,20000.0,1,0.0,2016-10-25,2016-10-25,3
+103956,Application_1331678337,Complete application,5,2016-10-25 08:05:44,2016-10-25 08:05:44,Variant 8,8,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103957,Application_1331678337,Calling client,24,2016-10-25 12:40:27,2016-10-25 12:40:27,Variant 8,8,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+103958,Application_1331678337,Validation,83,2016-11-08 13:55:20,2016-11-11 10:41:25,Variant 8,8,Car,New credit,20000.0,1247,7.1284959456800365,2016-11-08,2016-11-11,3
+103962,Application_1400741815,Calling client,24,2016-10-25 11:44:18,2016-10-25 11:44:18,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-10-25,2016-10-25,5
+103963,Application_1400741815,Validation,99,2016-10-31 13:50:49,2016-11-07 10:08:50,Variant 86,86,Home improvement,New credit,34500.0,1219,7.105786129481271,2016-10-31,2016-11-07,5
+103964,Application_1400741815,Request incomplete files,2,2016-11-01 16:10:57,2016-12-06 09:26:11,Variant 86,86,Home improvement,New credit,34500.0,1036,6.943122422819428,2016-11-01,2016-12-06,5
+103965,Application_1400741815,Validation,99,2016-11-03 08:07:54,2016-11-07 14:55:13,Variant 86,86,Home improvement,New credit,34500.0,408,6.0112671744041615,2016-11-03,2016-11-07,5
+103966,Application_1400741815,Request incomplete files,99,2016-11-04 10:04:01,2016-11-04 10:04:01,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-11-04,2016-11-04,5
+103967,Application_1400741815,Validation,99,2016-11-05 12:47:15,2016-11-09 10:05:17,Variant 86,86,Home improvement,New credit,34500.0,1279,7.153833801578843,2016-11-05,2016-11-09,5
+103968,Application_1400741815,Request incomplete files,99,2016-11-07 10:08:50,2016-11-07 10:08:50,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-11-07,2016-11-07,5
+103969,Application_1400741815,Validation,99,2016-11-07 14:55:10,2016-11-07 14:55:10,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-11-07,2016-11-07,5
+103970,Application_1400741815,Request incomplete files,99,2016-11-07 14:55:13,2016-11-07 14:55:13,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-11-07,2016-11-07,5
+103971,Application_1400741815,Validation,133,2016-11-08 15:17:41,2016-11-08 15:17:41,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-11-08,2016-11-08,5
+103972,Application_1400741815,Request incomplete files,99,2016-11-09 10:05:17,2016-11-09 10:05:17,Variant 86,86,Home improvement,New credit,34500.0,0,-inf,2016-11-09,2016-11-09,5
+103973,Application_1780196758,Calling client,40,2016-10-25 11:58:43,2016-10-25 11:58:43,Variant 10,10,Caravan / Camper,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+103974,Application_99697167,Calling client,10,2016-10-25 18:22:58,2016-10-25 18:22:58,Variant 10,10,Car,New credit,18250.0,0,-inf,2016-10-25,2016-10-25,3
+103975,Application_697324457,Complete application,66,2016-10-25 17:18:19,2016-10-25 20:18:33,Variant 3,3,Home improvement,New credit,15000.0,181,5.198497031265826,2016-10-25,2016-10-25,2
+103976,Application_697324457,Calling client,66,2016-10-25 20:18:33,2016-10-25 20:18:33,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103977,Application_697324457,Validation,131,2016-11-09 11:28:33,2016-11-09 11:28:33,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-11-09,2016-11-09,2
+103978,Application_697324457,Request incomplete files,109,2016-11-09 14:49:15,2016-11-09 14:49:15,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-11-09,2016-11-09,2
+103979,Application_697324457,Validation,133,2016-11-10 14:39:26,2016-11-10 14:39:26,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-11-10,2016-11-10,2
+103980,Application_1669392427,Complete application,79,2016-10-25 18:48:43,2016-10-25 18:48:43,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+103981,Application_1669392427,Calling client,56,2016-10-27 18:27:21,2016-10-27 18:27:21,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-10-27,2016-10-27,2
+103982,Application_1669392427,Validation,121,2016-11-23 11:04:37,2016-11-23 11:04:37,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-23,2016-11-23,2
+103983,Application_1669392427,Request incomplete files,100,2016-11-23 12:43:10,2016-11-23 12:43:10,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-23,2016-11-23,2
+103984,Application_1669392427,Validation,119,2016-11-25 10:20:00,2016-11-25 10:20:00,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-25,2016-11-25,2
+103985,Application_1669392427,Request incomplete files,100,2016-11-25 14:30:21,2016-11-25 14:30:21,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-11-25,2016-11-25,2
+103986,Application_1669392427,Validation,131,2016-12-02 17:19:13,2016-12-02 17:19:13,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-12-02,2016-12-02,2
+103987,Application_1669392427,Request incomplete files,100,2016-12-05 09:10:27,2016-12-05 09:10:27,Variant 9,9,Car,New credit,10000.0,0,-inf,2016-12-05,2016-12-05,2
+103988,Application_974380976,Complete application,80,2016-10-25 16:52:34,2016-10-25 16:52:34,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+103989,Application_974380976,Calling client,40,2016-11-01 11:36:07,2016-11-01 11:36:07,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-11-01,2016-11-01,2
+103990,Application_974380976,Validation,122,2016-11-10 13:31:41,2016-11-10 13:31:41,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-11-10,2016-11-10,2
+103991,Application_974380976,Request incomplete files,51,2016-11-11 13:02:26,2016-11-11 14:14:54,Variant 3,3,Home improvement,New credit,15000.0,73,4.290459441148391,2016-11-11,2016-11-11,2
+103992,Application_974380976,Validation,51,2016-11-11 14:14:54,2016-11-11 14:14:54,Variant 3,3,Home improvement,New credit,15000.0,0,-inf,2016-11-11,2016-11-11,2
+103993,Application_1020696982,Calling client,5,2016-10-25 13:05:21,2016-10-25 13:05:21,Variant 36,36,Not speficied,New credit,11000.0,0,-inf,2016-10-25,2016-10-25,2
+103994,Application_1020696982,Validation,123,2016-11-02 11:58:49,2016-11-02 12:00:36,Variant 36,36,Not speficied,New credit,11000.0,2,0.6931471805599453,2016-11-02,2016-11-02,2
+103995,Application_1020696982,Request incomplete files,123,2016-11-02 12:00:36,2016-11-02 12:00:36,Variant 36,36,Not speficied,New credit,11000.0,0,-inf,2016-11-02,2016-11-02,2
+103996,Application_1020696982,Validation,83,2016-11-02 16:03:00,2016-11-04 08:49:25,Variant 36,36,Not speficied,New credit,11000.0,1007,6.914730892718563,2016-11-02,2016-11-04,2
+103997,Application_1020696982,Request incomplete files,83,2016-11-04 08:49:25,2016-11-04 08:49:25,Variant 36,36,Not speficied,New credit,11000.0,0,-inf,2016-11-04,2016-11-04,2
+103998,Application_1020696982,Validation,83,2016-11-05 16:12:29,2016-11-07 08:27:42,Variant 36,36,Not speficied,New credit,11000.0,976,6.883462586413092,2016-11-05,2016-11-07,2
+103999,Application_1020696982,Request incomplete files,83,2016-11-07 08:27:42,2016-11-07 08:27:42,Variant 36,36,Not speficied,New credit,11000.0,0,-inf,2016-11-07,2016-11-07,2
+104000,Application_190734181,Complete application,80,2016-10-25 16:54:28,2016-10-25 17:06:58,Variant 1,1,Home improvement,New credit,5000.0,13,2.5649493574615367,2016-10-25,2016-10-25,1
+104001,Application_190734181,Calling client,80,2016-10-25 17:06:58,2016-10-25 17:06:58,Variant 1,1,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104002,Application_1686395823,Complete application,5,2016-10-25 19:02:45,2016-10-26 10:27:09,Variant 19,19,"Other, see explanation",New credit,65000.0,925,6.829793737512425,2016-10-25,2016-10-26,9
+104003,Application_1686395823,Calling client,5,2016-10-26 10:27:09,2016-10-26 10:27:09,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-10-26,2016-10-26,9
+104004,Application_1686395823,Validation,119,2016-11-01 10:05:55,2016-11-01 10:07:07,Variant 19,19,"Other, see explanation",New credit,65000.0,2,0.6931471805599453,2016-11-01,2016-11-01,9
+104005,Application_1686395823,Request incomplete files,119,2016-11-01 10:07:07,2016-11-01 10:07:07,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-11-01,2016-11-01,9
+104006,Application_1686395823,Validation,133,2016-11-01 15:23:24,2016-11-01 15:23:26,Variant 19,19,"Other, see explanation",New credit,65000.0,1,0.0,2016-11-01,2016-11-01,9
+104007,Application_1686395823,Request incomplete files,133,2016-11-01 15:23:26,2016-11-01 15:23:26,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-11-01,2016-11-01,9
+104008,Application_1686395823,Validation,83,2016-11-01 18:13:23,2016-11-04 09:09:46,Variant 19,19,"Other, see explanation",New credit,65000.0,897,6.799055862058796,2016-11-01,2016-11-04,9
+104009,Application_1686395823,Request incomplete files,83,2016-11-03 15:18:09,2016-11-03 15:18:09,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-11-03,2016-11-03,9
+104010,Application_1686395823,Validation,125,2016-11-04 08:40:19,2016-11-04 08:40:19,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-11-04,2016-11-04,9
+104011,Application_1686395823,Request incomplete files,83,2016-11-04 09:09:46,2016-11-04 09:09:46,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-11-04,2016-11-04,9
+104012,Application_1686395823,Validation,5,2016-11-10 11:28:15,2016-11-10 11:28:15,Variant 19,19,"Other, see explanation",New credit,65000.0,0,-inf,2016-11-10,2016-11-10,9
+104028,Application_1662440609,Calling client,54,2016-10-25 14:57:23,2016-10-25 14:57:23,Variant 10,10,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104031,Application_798496213,Calling client,24,2016-10-25 12:10:21,2016-10-25 12:10:21,Variant 13,13,Not speficied,New credit,13293.0,0,-inf,2016-10-25,2016-10-25,2
+104032,Application_798496213,Validation,118,2016-11-03 11:49:07,2016-11-03 11:49:07,Variant 13,13,Not speficied,New credit,13293.0,0,-inf,2016-11-03,2016-11-03,2
+104033,Application_798496213,Request incomplete files,100,2016-11-04 09:31:15,2016-11-04 09:31:15,Variant 13,13,Not speficied,New credit,13293.0,0,-inf,2016-11-04,2016-11-04,2
+104034,Application_798496213,Validation,133,2016-11-05 10:42:25,2016-11-05 10:42:25,Variant 13,13,Not speficied,New credit,13293.0,0,-inf,2016-11-05,2016-11-05,2
+104035,Application_120400056,Complete application,28,2016-10-25 09:13:16,2016-10-25 09:16:48,Variant 12,12,Caravan / Camper,Limit raise,0.0,4,1.3862943611198906,2016-10-25,2016-10-25,1
+104036,Application_120400056,Calling client,28,2016-10-25 09:16:48,2016-10-25 09:16:48,Variant 12,12,Caravan / Camper,Limit raise,0.0,0,-inf,2016-10-25,2016-10-25,1
+104037,Application_120400056,Validation,119,2016-10-28 13:27:44,2016-10-28 13:31:50,Variant 12,12,Caravan / Camper,Limit raise,0.0,5,1.6094379124341003,2016-10-28,2016-10-28,1
+104038,Application_120400056,Request incomplete files,29,2016-10-28 13:31:50,2016-11-04 13:16:57,Variant 12,12,Caravan / Camper,Limit raise,0.0,1426,7.262628600974241,2016-10-28,2016-11-04,1
+104039,Application_120400056,Validation,29,2016-10-28 18:36:40,2016-11-04 13:17:12,Variant 12,12,Caravan / Camper,Limit raise,0.0,1121,7.02197642307216,2016-10-28,2016-11-04,1
+104040,Application_120400056,Request incomplete files,29,2016-11-01 14:25:54,2016-11-01 14:25:54,Variant 12,12,Caravan / Camper,Limit raise,0.0,0,-inf,2016-11-01,2016-11-01,1
+104041,Application_120400056,Validation,133,2016-11-03 14:39:40,2016-11-03 14:39:40,Variant 12,12,Caravan / Camper,Limit raise,0.0,0,-inf,2016-11-03,2016-11-03,1
+104042,Application_120400056,Request incomplete files,29,2016-11-04 13:16:56,2016-11-04 13:16:56,Variant 12,12,Caravan / Camper,Limit raise,0.0,0,-inf,2016-11-04,2016-11-04,1
+104043,Application_120400056,Validation,29,2016-11-04 13:16:57,2016-11-04 13:16:57,Variant 12,12,Caravan / Camper,Limit raise,0.0,0,-inf,2016-11-04,2016-11-04,1
+104044,Application_579275809,Complete application,24,2016-10-25 09:20:54,2016-10-25 09:30:54,Variant 1,1,Unknown,New credit,0.0,10,2.302585092994046,2016-10-25,2016-10-25,1
+104045,Application_579275809,Calling client,24,2016-10-25 09:30:54,2016-10-25 09:30:54,Variant 1,1,Unknown,New credit,0.0,0,-inf,2016-10-25,2016-10-25,1
+104046,Application_1375435938,Calling client,40,2016-10-25 14:35:46,2016-10-25 14:35:46,Variant 10,10,Car,New credit,17000.0,0,-inf,2016-10-25,2016-10-25,3
+104047,Application_789334077,Complete application,40,2016-10-25 09:48:57,2016-10-25 10:00:03,Variant 6,6,Home improvement,New credit,25000.0,12,2.4849066497880004,2016-10-25,2016-10-25,4
+104048,Application_789334077,Calling client,40,2016-10-25 10:00:03,2016-10-25 10:00:03,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+104049,Application_789334077,Validation,133,2016-10-31 15:49:00,2016-10-31 15:49:02,Variant 6,6,Home improvement,New credit,25000.0,1,0.0,2016-10-31,2016-10-31,4
+104050,Application_789334077,Request incomplete files,133,2016-10-31 15:49:02,2016-10-31 15:49:02,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-10-31,2016-10-31,4
+104051,Application_789334077,Validation,121,2016-10-31 16:12:32,2016-10-31 16:12:34,Variant 6,6,Home improvement,New credit,25000.0,1,0.0,2016-10-31,2016-10-31,4
+104052,Application_789334077,Request incomplete files,121,2016-10-31 16:12:34,2016-10-31 16:12:34,Variant 6,6,Home improvement,New credit,25000.0,0,-inf,2016-10-31,2016-10-31,4
+104053,Application_680448181,Complete application,2,2016-10-25 09:56:12,2016-10-25 10:01:42,Variant 1,1,Home improvement,New credit,8000.0,6,1.791759469228055,2016-10-25,2016-10-25,2
+104054,Application_680448181,Calling client,2,2016-10-25 10:01:42,2016-10-25 10:01:42,Variant 1,1,Home improvement,New credit,8000.0,0,-inf,2016-10-25,2016-10-25,2
+104055,Application_642553020,Complete application,60,2016-10-25 09:59:05,2016-10-25 10:04:21,Variant 4,4,"Other, see explanation",New credit,0.0,6,1.791759469228055,2016-10-25,2016-10-25,1
+104056,Application_642553020,Calling client,60,2016-10-25 10:04:21,2016-10-25 10:04:21,Variant 4,4,"Other, see explanation",New credit,0.0,0,-inf,2016-10-25,2016-10-25,1
+104057,Application_642553020,Validation,123,2016-10-28 13:41:03,2016-10-28 13:41:03,Variant 4,4,"Other, see explanation",New credit,0.0,0,-inf,2016-10-28,2016-10-28,1
+104058,Application_642553020,Request incomplete files,75,2016-11-01 12:51:19,2016-11-01 12:51:19,Variant 4,4,"Other, see explanation",New credit,0.0,0,-inf,2016-11-01,2016-11-01,1
+104065,Application_1754878754,Complete application,2,2016-10-25 10:20:13,2016-10-25 10:23:18,Variant 1,1,Existing loan takeover,New credit,6500.0,4,1.3862943611198906,2016-10-25,2016-10-25,1
+104066,Application_1754878754,Calling client,2,2016-10-25 10:23:18,2016-10-25 10:23:18,Variant 1,1,Existing loan takeover,New credit,6500.0,0,-inf,2016-10-25,2016-10-25,1
+104072,Application_972486124,Complete application,5,2016-10-25 10:23:09,2016-10-25 10:23:09,Variant 5,5,Extra spending limit,Limit raise,35000.0,0,-inf,2016-10-25,2016-10-25,5
+104073,Application_972486124,Calling client,40,2016-10-25 14:43:57,2016-10-25 14:43:57,Variant 5,5,Extra spending limit,Limit raise,35000.0,0,-inf,2016-10-25,2016-10-25,5
+104074,Application_972486124,Validation,87,2016-11-04 10:33:04,2016-11-16 15:31:48,Variant 5,5,Extra spending limit,Limit raise,35000.0,299,5.700443573390687,2016-11-04,2016-11-16,5
+104075,Application_972486124,Request incomplete files,42,2016-11-09 10:06:23,2016-11-11 09:23:34,Variant 5,5,Extra spending limit,Limit raise,35000.0,1398,7.242797922793756,2016-11-09,2016-11-11,5
+104076,Application_972486124,Validation,27,2016-11-10 09:40:34,2016-11-10 09:40:34,Variant 5,5,Extra spending limit,Limit raise,35000.0,0,-inf,2016-11-10,2016-11-10,5
+104077,Application_972486124,Request incomplete files,87,2016-11-10 15:43:55,2016-11-10 15:43:55,Variant 5,5,Extra spending limit,Limit raise,35000.0,0,-inf,2016-11-10,2016-11-10,5
+104078,Application_972486124,Validation,42,2016-11-11 09:23:34,2016-11-11 09:23:34,Variant 5,5,Extra spending limit,Limit raise,35000.0,0,-inf,2016-11-11,2016-11-11,5
+104079,Application_1465025013,Complete application,40,2016-10-25 10:23:54,2016-10-25 10:34:33,Variant 5,5,Home improvement,New credit,25000.0,11,2.3978952727983707,2016-10-25,2016-10-25,4
+104080,Application_1465025013,Calling client,40,2016-10-25 10:34:33,2016-10-25 10:34:33,Variant 5,5,Home improvement,New credit,25000.0,0,-inf,2016-10-25,2016-10-25,4
+104081,Application_1465025013,Validation,107,2016-11-01 10:37:34,2016-11-01 10:41:06,Variant 5,5,Home improvement,New credit,25000.0,4,1.3862943611198906,2016-11-01,2016-11-01,4
+104082,Application_1465025013,Request incomplete files,107,2016-11-01 10:41:06,2016-11-01 10:41:06,Variant 5,5,Home improvement,New credit,25000.0,0,-inf,2016-11-01,2016-11-01,4
+104083,Application_1465025013,Validation,133,2016-11-03 17:35:17,2016-11-03 17:35:17,Variant 5,5,Home improvement,New credit,25000.0,0,-inf,2016-11-03,2016-11-03,4
+104084,Application_1465025013,Request incomplete files,30,2016-11-09 13:37:14,2016-11-09 13:37:14,Variant 5,5,Home improvement,New credit,25000.0,0,-inf,2016-11-09,2016-11-09,4
+104085,Application_1465025013,Validation,133,2016-11-10 14:48:07,2016-11-10 14:48:07,Variant 5,5,Home improvement,New credit,25000.0,0,-inf,2016-11-10,2016-11-10,4
+104086,Application_462882090,Calling client,40,2016-10-25 14:49:37,2016-10-25 14:49:37,Variant 14,14,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104087,Application_462882090,Validation,107,2016-11-01 08:39:50,2016-11-01 08:39:50,Variant 14,14,Car,New credit,5000.0,0,-inf,2016-11-01,2016-11-01,1
+104088,Application_821026605,Complete application,40,2016-10-25 16:01:31,2016-10-25 16:13:45,Variant 4,4,Existing loan takeover,New credit,19000.0,13,2.5649493574615367,2016-10-25,2016-10-25,3
+104089,Application_821026605,Calling client,40,2016-10-25 16:13:45,2016-10-25 16:13:45,Variant 4,4,Existing loan takeover,New credit,19000.0,0,-inf,2016-10-25,2016-10-25,3
+104090,Application_821026605,Validation,121,2016-10-31 09:24:14,2016-10-31 09:24:14,Variant 4,4,Existing loan takeover,New credit,19000.0,0,-inf,2016-10-31,2016-10-31,3
+104091,Application_821026605,Request incomplete files,29,2016-11-02 15:13:38,2016-11-02 15:13:38,Variant 4,4,Existing loan takeover,New credit,19000.0,0,-inf,2016-11-02,2016-11-02,3
+104092,Application_391099640,Calling client,40,2016-10-25 15:03:27,2016-10-25 15:03:27,Variant 197,197,Car,New credit,13000.0,0,-inf,2016-10-25,2016-10-25,2
+104093,Application_391099640,Fraud suspicion check,55,2016-11-16 09:01:43,2016-11-17 12:41:00,Variant 197,197,Car,New credit,13000.0,220,5.393627546352362,2016-11-16,2016-11-17,2
+104094,Application_36831628,Calling client,40,2016-10-25 15:12:49,2016-10-25 15:12:49,Variant 10,10,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104095,Application_455616073,Complete application,21,2016-10-25 11:01:35,2016-10-25 11:09:48,Variant 3,3,Existing loan takeover,New credit,30000.0,9,2.1972245773362196,2016-10-25,2016-10-25,4
+104096,Application_455616073,Calling client,21,2016-10-25 11:09:48,2016-10-25 11:09:48,Variant 3,3,Existing loan takeover,New credit,30000.0,0,-inf,2016-10-25,2016-10-25,4
+104097,Application_455616073,Validation,68,2016-10-31 11:18:52,2016-11-02 15:10:01,Variant 3,3,Existing loan takeover,New credit,30000.0,232,5.44673737166631,2016-10-31,2016-11-02,4
+104098,Application_455616073,Request incomplete files,41,2016-11-02 15:10:01,2016-11-02 20:05:55,Variant 3,3,Existing loan takeover,New credit,30000.0,296,5.69035945432406,2016-11-02,2016-11-02,4
+104099,Application_455616073,Validation,41,2016-11-02 20:05:55,2016-11-02 20:05:55,Variant 3,3,Existing loan takeover,New credit,30000.0,0,-inf,2016-11-02,2016-11-02,4
+104100,Application_997240244,Complete application,104,2016-10-25 15:25:34,2016-10-25 15:25:34,Variant 1,1,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+104101,Application_997240244,Calling client,54,2016-10-25 15:29:12,2016-10-25 15:29:12,Variant 1,1,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+104102,Application_294586112,Complete application,61,2016-10-25 11:27:00,2016-10-25 11:33:13,Variant 2,2,"Other, see explanation",New credit,23750.0,7,1.9459101490553132,2016-10-25,2016-10-25,4
+104103,Application_294586112,Calling client,61,2016-10-25 11:33:13,2016-10-25 11:33:13,Variant 2,2,"Other, see explanation",New credit,23750.0,0,-inf,2016-10-25,2016-10-25,4
+104104,Application_294586112,Validation,27,2016-11-15 11:56:48,2016-11-15 11:56:48,Variant 2,2,"Other, see explanation",New credit,23750.0,0,-inf,2016-11-15,2016-11-15,4
+104105,Application_1578090032,Complete application,40,2016-10-25 11:25:34,2016-10-25 11:30:59,Variant 6,6,Home improvement,New credit,15000.0,6,1.791759469228055,2016-10-25,2016-10-25,2
+104106,Application_1578090032,Calling client,40,2016-10-25 11:30:59,2016-10-25 11:30:59,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+104107,Application_1578090032,Validation,125,2016-11-04 10:59:50,2016-11-04 11:04:55,Variant 6,6,Home improvement,New credit,15000.0,6,1.791759469228055,2016-11-04,2016-11-04,2
+104108,Application_1578090032,Request incomplete files,125,2016-11-04 11:04:55,2016-11-04 11:04:55,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-04,2016-11-04,2
+104109,Application_1578090032,Validation,133,2016-11-05 12:52:47,2016-11-05 12:52:47,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-05,2016-11-05,2
+104110,Application_1578090032,Request incomplete files,90,2016-11-07 13:05:22,2016-11-07 13:05:22,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-07,2016-11-07,2
+104111,Application_1464780823,Complete application,21,2016-10-25 11:25:50,2016-10-25 11:31:09,Variant 4,4,Car,New credit,36500.0,6,1.791759469228055,2016-10-25,2016-10-25,5
+104112,Application_1464780823,Calling client,21,2016-10-25 11:31:09,2016-10-25 11:31:09,Variant 4,4,Car,New credit,36500.0,0,-inf,2016-10-25,2016-10-25,5
+104113,Application_1464780823,Validation,119,2016-11-01 11:19:33,2016-11-01 11:19:33,Variant 4,4,Car,New credit,36500.0,0,-inf,2016-11-01,2016-11-01,5
+104114,Application_1464780823,Request incomplete files,87,2016-11-03 14:24:42,2016-11-03 14:24:42,Variant 4,4,Car,New credit,36500.0,0,-inf,2016-11-03,2016-11-03,5
+104115,Application_1148505526,Automatic initial assessment,40,2016-10-25 11:47:23,2016-10-25 11:48:36,Variant 7,7,Car,New credit,5000.0,2,0.6931471805599453,2016-10-25,2016-10-25,1
+104116,Application_1148505526,Complete application,66,2016-10-25 11:48:36,2016-10-25 20:57:55,Variant 7,7,Car,New credit,5000.0,550,6.309918278226516,2016-10-25,2016-10-25,1
+104117,Application_1148505526,Calling client,66,2016-10-25 20:57:55,2016-10-25 20:57:55,Variant 7,7,Car,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104118,Application_1108553853,Calling client,40,2016-10-25 15:26:31,2016-10-25 15:26:31,Variant 14,14,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104119,Application_1108553853,Validation,118,2016-11-03 12:54:54,2016-11-03 12:54:54,Variant 14,14,Home improvement,New credit,5000.0,0,-inf,2016-11-03,2016-11-03,1
+104131,Application_1296197799,Complete application,2,2016-10-25 12:07:59,2016-10-25 12:11:09,Variant 9,9,Home improvement,New credit,7000.0,4,1.3862943611198906,2016-10-25,2016-10-25,1
+104132,Application_1296197799,Calling client,2,2016-10-25 12:11:09,2016-10-25 12:11:09,Variant 9,9,Home improvement,New credit,7000.0,0,-inf,2016-10-25,2016-10-25,1
+104133,Application_1296197799,Validation,131,2016-11-02 15:01:09,2016-11-02 15:01:11,Variant 9,9,Home improvement,New credit,7000.0,1,0.0,2016-11-02,2016-11-02,1
+104134,Application_1296197799,Request incomplete files,131,2016-11-02 15:01:11,2016-11-02 15:01:11,Variant 9,9,Home improvement,New credit,7000.0,0,-inf,2016-11-02,2016-11-02,1
+104135,Application_1296197799,Validation,133,2016-11-03 15:27:56,2016-11-03 15:27:56,Variant 9,9,Home improvement,New credit,7000.0,0,-inf,2016-11-03,2016-11-03,1
+104136,Application_1296197799,Request incomplete files,109,2016-11-08 08:43:03,2016-11-08 08:43:03,Variant 9,9,Home improvement,New credit,7000.0,0,-inf,2016-11-08,2016-11-08,1
+104137,Application_1296197799,Validation,133,2016-11-08 17:18:59,2016-11-08 17:18:59,Variant 9,9,Home improvement,New credit,7000.0,0,-inf,2016-11-08,2016-11-08,1
+104138,Application_1296197799,Request incomplete files,109,2016-11-09 10:00:40,2016-11-09 10:00:40,Variant 9,9,Home improvement,New credit,7000.0,0,-inf,2016-11-09,2016-11-09,1
+104143,Application_1474055956,Complete application,2,2016-10-25 12:54:17,2016-10-25 13:02:17,Variant 12,12,Unknown,Limit raise,0.0,8,2.0794415416798357,2016-10-25,2016-10-25,1
+104144,Application_1474055956,Calling client,2,2016-10-25 13:02:17,2016-10-25 13:02:17,Variant 12,12,Unknown,Limit raise,0.0,0,-inf,2016-10-25,2016-10-25,1
+104145,Application_1474055956,Validation,123,2016-11-03 12:04:11,2016-11-03 12:07:15,Variant 12,12,Unknown,Limit raise,0.0,4,1.3862943611198906,2016-11-03,2016-11-03,1
+104146,Application_1474055956,Request incomplete files,67,2016-11-03 12:07:15,2016-11-10 20:23:17,Variant 12,12,Unknown,Limit raise,0.0,497,6.208590026096629,2016-11-03,2016-11-10,1
+104147,Application_1474055956,Validation,133,2016-11-05 10:39:57,2016-11-05 10:39:57,Variant 12,12,Unknown,Limit raise,0.0,0,-inf,2016-11-05,2016-11-05,1
+104148,Application_1474055956,Request incomplete files,29,2016-11-09 15:04:44,2016-11-09 15:04:44,Variant 12,12,Unknown,Limit raise,0.0,0,-inf,2016-11-09,2016-11-09,1
+104149,Application_1474055956,Validation,27,2016-11-10 10:13:05,2016-11-10 10:13:05,Variant 12,12,Unknown,Limit raise,0.0,0,-inf,2016-11-10,2016-11-10,1
+104150,Application_1474055956,Request incomplete files,29,2016-11-10 14:42:03,2016-11-10 14:42:03,Variant 12,12,Unknown,Limit raise,0.0,0,-inf,2016-11-10,2016-11-10,1
+104151,Application_1474055956,Validation,67,2016-11-10 20:23:17,2016-11-10 20:23:17,Variant 12,12,Unknown,Limit raise,0.0,0,-inf,2016-11-10,2016-11-10,1
+104154,Application_95477936,Complete application,21,2016-10-25 13:02:04,2016-10-25 13:10:16,Variant 2,2,Home improvement,New credit,6500.0,9,2.1972245773362196,2016-10-25,2016-10-25,1
+104155,Application_95477936,Calling client,21,2016-10-25 13:10:16,2016-10-25 13:10:16,Variant 2,2,Home improvement,New credit,6500.0,0,-inf,2016-10-25,2016-10-25,1
+104156,Application_95477936,Validation,118,2016-10-31 09:24:45,2016-10-31 09:24:45,Variant 2,2,Home improvement,New credit,6500.0,0,-inf,2016-10-31,2016-10-31,1
+104157,Application_1472969785,Complete application,79,2016-10-25 17:20:04,2016-10-25 17:38:50,Variant 1,1,Car,New credit,20000.0,19,2.9444389791664403,2016-10-25,2016-10-25,3
+104158,Application_1472969785,Calling client,79,2016-10-25 17:38:50,2016-10-25 17:38:50,Variant 1,1,Car,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+104159,Application_685130299,Complete application,79,2016-10-25 17:14:39,2016-10-25 17:14:39,Variant 4,4,Home improvement,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+104160,Application_685130299,Calling client,3,2016-10-26 11:23:07,2016-10-26 11:23:07,Variant 4,4,Home improvement,New credit,10000.0,0,-inf,2016-10-26,2016-10-26,2
+104161,Application_685130299,Validation,100,2016-11-10 12:52:08,2016-11-14 14:38:06,Variant 4,4,Home improvement,New credit,10000.0,106,4.663439094112067,2016-11-10,2016-11-14,2
+104162,Application_685130299,Request incomplete files,100,2016-11-14 14:38:06,2016-11-14 14:38:06,Variant 4,4,Home improvement,New credit,10000.0,0,-inf,2016-11-14,2016-11-14,2
+104163,Application_1307722721,Calling client,66,2016-10-25 19:51:12,2016-10-25 19:51:12,Variant 21,21,Home improvement,New credit,42000.0,0,-inf,2016-10-25,2016-10-25,6
+104164,Application_1307722721,Validation,68,2016-11-03 15:13:44,2016-12-12 12:29:12,Variant 21,21,Home improvement,New credit,42000.0,1276,7.151485463904735,2016-11-03,2016-12-12,6
+104165,Application_1307722721,Request incomplete files,67,2016-11-08 07:58:49,2016-12-12 16:02:54,Variant 21,21,Home improvement,New credit,42000.0,485,6.184148890937483,2016-11-08,2016-12-12,6
+104166,Application_1307722721,Validation,63,2016-12-08 10:12:05,2016-12-08 10:12:05,Variant 21,21,Home improvement,New credit,42000.0,0,-inf,2016-12-08,2016-12-08,6
+104167,Application_1307722721,Request incomplete files,68,2016-12-12 12:29:12,2016-12-12 12:29:12,Variant 21,21,Home improvement,New credit,42000.0,0,-inf,2016-12-12,2016-12-12,6
+104178,Application_1689701428,Complete application,58,2016-10-25 13:41:46,2016-10-25 13:56:06,Variant 4,4,Home improvement,New credit,65000.0,15,2.70805020110221,2016-10-25,2016-10-25,9
+104179,Application_1689701428,Calling client,58,2016-10-25 13:56:06,2016-10-25 13:56:06,Variant 4,4,Home improvement,New credit,65000.0,0,-inf,2016-10-25,2016-10-25,9
+104180,Application_1689701428,Validation,121,2016-11-07 13:43:54,2016-11-07 13:43:54,Variant 4,4,Home improvement,New credit,65000.0,0,-inf,2016-11-07,2016-11-07,9
+104181,Application_1689701428,Request incomplete files,75,2016-11-10 13:54:31,2016-11-10 13:54:31,Variant 4,4,Home improvement,New credit,65000.0,0,-inf,2016-11-10,2016-11-10,9
+104182,Application_855239950,Complete application,79,2016-10-25 17:17:04,2016-10-25 17:17:04,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+104183,Application_855239950,Calling client,67,2016-10-26 13:53:51,2016-10-26 13:53:51,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-10-26,2016-10-26,2
+104184,Application_855239950,Validation,118,2016-11-03 14:42:01,2016-11-03 14:42:01,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-03,2016-11-03,2
+104185,Application_855239950,Request incomplete files,109,2016-11-08 09:30:45,2016-11-08 09:30:45,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-08,2016-11-08,2
+104186,Application_855239950,Validation,119,2016-11-14 12:14:43,2016-11-14 12:14:43,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-14,2016-11-14,2
+104187,Application_855239950,Request incomplete files,109,2016-11-14 13:10:13,2016-11-14 13:10:13,Variant 6,6,Home improvement,New credit,15000.0,0,-inf,2016-11-14,2016-11-14,2
+104188,Application_1230130783,Automatic initial assessment,1,2016-10-25 13:50:18,2016-10-25 13:50:23,Variant 7,7,Car,New credit,25000.0,1,0.0,2016-10-25,2016-10-25,4
+104189,Application_1230130783,Complete application,104,2016-10-26 11:44:22,2016-10-26 11:44:22,Variant 7,7,Car,New credit,25000.0,0,-inf,2016-10-26,2016-10-26,4
+104190,Application_1230130783,Calling client,5,2016-10-26 12:06:50,2016-10-26 12:06:50,Variant 7,7,Car,New credit,25000.0,0,-inf,2016-10-26,2016-10-26,4
+104196,Application_251670774,Automatic initial assessment,54,2016-10-25 14:22:19,2016-10-25 14:23:25,Variant 25,25,Existing loan takeover,New credit,38000.0,2,0.6931471805599453,2016-10-25,2016-10-25,6
+104197,Application_251670774,Complete application,3,2016-10-25 14:23:25,2016-10-26 12:20:48,Variant 25,25,Existing loan takeover,New credit,38000.0,1318,7.183870715062453,2016-10-25,2016-10-26,6
+104198,Application_251670774,Calling client,3,2016-10-26 12:20:48,2016-10-26 12:20:48,Variant 25,25,Existing loan takeover,New credit,38000.0,0,-inf,2016-10-26,2016-10-26,6
+104199,Application_251670774,Validation,27,2016-11-02 15:05:46,2016-11-02 15:13:18,Variant 25,25,Existing loan takeover,New credit,38000.0,8,2.0794415416798357,2016-11-02,2016-11-02,6
+104200,Application_251670774,Request incomplete files,27,2016-11-02 15:13:18,2016-11-02 15:13:18,Variant 25,25,Existing loan takeover,New credit,38000.0,0,-inf,2016-11-02,2016-11-02,6
+104201,Application_251670774,Validation,133,2016-11-03 15:36:09,2016-11-03 15:36:09,Variant 25,25,Existing loan takeover,New credit,38000.0,0,-inf,2016-11-03,2016-11-03,6
+104202,Application_251670774,Request incomplete files,30,2016-11-09 13:58:42,2016-11-09 13:58:42,Variant 25,25,Existing loan takeover,New credit,38000.0,0,-inf,2016-11-09,2016-11-09,6
+104203,Application_251670774,Validation,131,2016-11-10 13:01:08,2016-11-10 13:01:08,Variant 25,25,Existing loan takeover,New credit,38000.0,0,-inf,2016-11-10,2016-11-10,6
+104204,Application_251670774,Request incomplete files,30,2016-11-10 14:18:03,2016-11-10 14:18:03,Variant 25,25,Existing loan takeover,New credit,38000.0,0,-inf,2016-11-10,2016-11-10,6
+104208,Application_1859387169,Automatic initial assessment,54,2016-10-25 14:18:06,2016-10-25 14:18:51,Variant 8,8,Home improvement,New credit,20000.0,1,0.0,2016-10-25,2016-10-25,3
+104209,Application_1859387169,Complete application,96,2016-10-25 14:18:51,2016-10-27 10:43:18,Variant 8,8,Home improvement,New credit,20000.0,1225,7.110696122978827,2016-10-25,2016-10-27,3
+104210,Application_1859387169,Calling client,96,2016-10-27 10:43:18,2016-10-27 10:43:18,Variant 8,8,Home improvement,New credit,20000.0,0,-inf,2016-10-27,2016-10-27,3
+104211,Application_1859387169,Validation,118,2016-11-10 14:04:06,2016-11-10 14:04:06,Variant 8,8,Home improvement,New credit,20000.0,0,-inf,2016-11-10,2016-11-10,3
+104219,Application_159263293,Automatic initial assessment,54,2016-10-25 14:31:56,2016-10-25 14:36:03,Variant 7,7,Existing loan takeover,New credit,23500.0,5,1.6094379124341003,2016-10-25,2016-10-25,4
+104220,Application_159263293,Complete application,65,2016-10-25 14:36:03,2016-10-26 12:14:10,Variant 7,7,Existing loan takeover,New credit,23500.0,1299,7.1693500166706,2016-10-25,2016-10-26,4
+104221,Application_159263293,Calling client,65,2016-10-26 12:14:10,2016-10-26 12:14:10,Variant 7,7,Existing loan takeover,New credit,23500.0,0,-inf,2016-10-26,2016-10-26,4
+104222,Application_538311021,Complete application,5,2016-10-25 14:30:04,2016-10-25 14:30:04,Variant 2,2,Car,Limit raise,8000.0,0,-inf,2016-10-25,2016-10-25,2
+104223,Application_538311021,Calling client,4,2016-10-26 09:28:05,2016-10-26 09:28:05,Variant 2,2,Car,Limit raise,8000.0,0,-inf,2016-10-26,2016-10-26,2
+104224,Application_538311021,Validation,68,2016-10-28 13:11:53,2016-11-01 12:52:32,Variant 2,2,Car,Limit raise,8000.0,1421,7.259116128097101,2016-10-28,2016-11-01,2
+104225,Application_604648984,Complete application,21,2016-10-25 14:47:55,2016-10-25 14:52:18,Variant 3,3,Home improvement,New credit,7500.0,5,1.6094379124341003,2016-10-25,2016-10-25,1
+104226,Application_604648984,Calling client,21,2016-10-25 14:52:18,2016-10-25 14:52:18,Variant 3,3,Home improvement,New credit,7500.0,0,-inf,2016-10-25,2016-10-25,1
+104227,Application_604648984,Validation,121,2016-10-31 10:12:32,2016-10-31 10:12:32,Variant 3,3,Home improvement,New credit,7500.0,0,-inf,2016-10-31,2016-10-31,1
+104228,Application_604648984,Request incomplete files,100,2016-11-01 15:11:08,2016-11-01 15:11:08,Variant 3,3,Home improvement,New credit,7500.0,0,-inf,2016-11-01,2016-11-01,1
+104229,Application_604648984,Validation,27,2016-11-03 10:07:02,2016-11-03 10:07:02,Variant 3,3,Home improvement,New credit,7500.0,0,-inf,2016-11-03,2016-11-03,1
+104240,Application_538869641,Complete application,66,2016-10-25 15:14:16,2016-10-25 15:26:40,Variant 1,1,Unknown,New credit,0.0,13,2.5649493574615367,2016-10-25,2016-10-25,1
+104241,Application_538869641,Calling client,66,2016-10-25 15:26:40,2016-10-25 15:26:40,Variant 1,1,Unknown,New credit,0.0,0,-inf,2016-10-25,2016-10-25,1
+104242,Application_539120928,Complete application,58,2016-10-25 15:29:55,2016-10-25 15:35:28,Variant 3,3,Unknown,Limit raise,13500.0,6,1.791759469228055,2016-10-25,2016-10-25,2
+104243,Application_539120928,Calling client,58,2016-10-25 15:35:28,2016-10-25 15:35:28,Variant 3,3,Unknown,Limit raise,13500.0,0,-inf,2016-10-25,2016-10-25,2
+104244,Application_539120928,Validation,123,2016-10-28 14:05:15,2016-10-28 14:06:58,Variant 3,3,Unknown,Limit raise,13500.0,2,0.6931471805599453,2016-10-28,2016-10-28,2
+104245,Application_539120928,Request incomplete files,123,2016-10-28 14:06:58,2016-10-28 14:06:58,Variant 3,3,Unknown,Limit raise,13500.0,0,-inf,2016-10-28,2016-10-28,2
+104246,Application_539120928,Validation,133,2016-10-31 14:27:31,2016-10-31 14:27:31,Variant 3,3,Unknown,Limit raise,13500.0,0,-inf,2016-10-31,2016-10-31,2
+104252,Application_1811471028,Automatic initial assessment,54,2016-10-25 15:37:11,2016-10-25 15:37:59,Variant 8,8,Home improvement,New credit,5000.0,1,0.0,2016-10-25,2016-10-25,1
+104253,Application_1811471028,Complete application,104,2016-10-25 15:37:59,2016-10-26 13:05:41,Variant 8,8,Home improvement,New credit,5000.0,1288,7.160845906664299,2016-10-25,2016-10-26,1
+104254,Application_1811471028,Calling client,104,2016-10-26 13:05:41,2016-10-26 13:05:41,Variant 8,8,Home improvement,New credit,5000.0,0,-inf,2016-10-26,2016-10-26,1
+104255,Application_1811471028,Validation,83,2016-11-02 13:56:49,2016-11-03 16:57:28,Variant 8,8,Home improvement,New credit,5000.0,181,5.198497031265826,2016-11-02,2016-11-03,1
+104256,Application_1503054725,Complete application,21,2016-10-25 15:36:34,2016-10-25 15:47:52,Variant 2,2,Car,New credit,7500.0,12,2.4849066497880004,2016-10-25,2016-10-25,1
+104257,Application_1503054725,Calling client,21,2016-10-25 15:47:52,2016-10-25 15:47:52,Variant 2,2,Car,New credit,7500.0,0,-inf,2016-10-25,2016-10-25,1
+104258,Application_1503054725,Validation,131,2016-10-28 09:59:03,2016-10-28 09:59:03,Variant 2,2,Car,New credit,7500.0,0,-inf,2016-10-28,2016-10-28,1
+104263,Application_1288084480,Complete application,58,2016-10-25 15:55:23,2016-10-25 16:03:21,Variant 5,5,Car,New credit,18000.0,8,2.0794415416798357,2016-10-25,2016-10-25,3
+104264,Application_1288084480,Calling client,58,2016-10-25 16:03:21,2016-10-25 16:03:21,Variant 5,5,Car,New credit,18000.0,0,-inf,2016-10-25,2016-10-25,3
+104265,Application_1288084480,Validation,133,2016-10-28 14:23:01,2016-10-28 14:23:03,Variant 5,5,Car,New credit,18000.0,1,0.0,2016-10-28,2016-10-28,3
+104266,Application_1288084480,Request incomplete files,133,2016-10-28 14:23:03,2016-10-28 14:23:03,Variant 5,5,Car,New credit,18000.0,0,-inf,2016-10-28,2016-10-28,3
+104267,Application_1288084480,Validation,119,2016-11-01 13:40:53,2016-11-01 13:40:53,Variant 5,5,Car,New credit,18000.0,0,-inf,2016-11-01,2016-11-01,3
+104268,Application_1288084480,Request incomplete files,75,2016-11-03 12:49:03,2016-11-03 12:49:03,Variant 5,5,Car,New credit,18000.0,0,-inf,2016-11-03,2016-11-03,3
+104269,Application_1288084480,Validation,49,2016-11-03 12:59:56,2016-11-03 12:59:56,Variant 5,5,Car,New credit,18000.0,0,-inf,2016-11-03,2016-11-03,3
+104274,Application_2076314524,Complete application,2,2016-10-25 16:08:03,2016-10-25 16:12:18,Variant 9,9,Unknown,New credit,0.0,5,1.6094379124341003,2016-10-25,2016-10-25,1
+104275,Application_2076314524,Calling client,2,2016-10-25 16:12:18,2016-10-25 16:12:18,Variant 9,9,Unknown,New credit,0.0,0,-inf,2016-10-25,2016-10-25,1
+104276,Application_2076314524,Validation,121,2016-11-23 14:00:39,2016-11-23 14:08:25,Variant 9,9,Unknown,New credit,0.0,8,2.0794415416798357,2016-11-23,2016-11-23,1
+104277,Application_2076314524,Request incomplete files,121,2016-11-23 14:08:25,2016-11-23 14:08:25,Variant 9,9,Unknown,New credit,0.0,0,-inf,2016-11-23,2016-11-23,1
+104278,Application_2076314524,Validation,90,2016-11-25 08:29:49,2016-12-01 08:56:08,Variant 9,9,Unknown,New credit,0.0,27,3.295836866004329,2016-11-25,2016-12-01,1
+104279,Application_2076314524,Request incomplete files,90,2016-11-29 09:59:57,2016-11-29 09:59:57,Variant 9,9,Unknown,New credit,0.0,0,-inf,2016-11-29,2016-11-29,1
+104280,Application_2076314524,Validation,133,2016-11-30 15:00:26,2016-11-30 15:00:26,Variant 9,9,Unknown,New credit,0.0,0,-inf,2016-11-30,2016-11-30,1
+104281,Application_2076314524,Request incomplete files,90,2016-12-01 08:56:08,2016-12-01 08:56:08,Variant 9,9,Unknown,New credit,0.0,0,-inf,2016-12-01,2016-12-01,1
+104287,Application_923730558,Complete application,54,2016-10-25 16:35:31,2016-10-25 16:39:44,Variant 1,1,Home improvement,New credit,6000.0,5,1.6094379124341003,2016-10-25,2016-10-25,1
+104288,Application_923730558,Calling client,54,2016-10-25 16:39:44,2016-10-25 16:39:44,Variant 1,1,Home improvement,New credit,6000.0,0,-inf,2016-10-25,2016-10-25,1
+104289,Application_1104697616,Complete application,104,2016-10-25 16:35:33,2016-10-25 16:35:33,Variant 2,2,Home improvement,Limit raise,16500.0,0,-inf,2016-10-25,2016-10-25,3
+104290,Application_1104697616,Calling client,48,2016-10-27 15:10:43,2016-10-27 15:10:43,Variant 2,2,Home improvement,Limit raise,16500.0,0,-inf,2016-10-27,2016-10-27,3
+104291,Application_1104697616,Validation,93,2016-11-07 09:50:04,2016-11-08 12:34:58,Variant 2,2,Home improvement,Limit raise,16500.0,165,5.10594547390058,2016-11-07,2016-11-08,3
+104292,Application_207339253,Complete application,67,2016-10-25 16:38:05,2016-10-25 16:48:12,Variant 4,4,Car,New credit,10000.0,11,2.3978952727983707,2016-10-25,2016-10-25,2
+104293,Application_207339253,Calling client,67,2016-10-25 16:48:12,2016-10-25 16:48:12,Variant 4,4,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+104294,Application_207339253,Validation,30,2016-11-09 09:55:57,2016-11-09 11:43:08,Variant 4,4,Car,New credit,10000.0,108,4.68213122712422,2016-11-09,2016-11-09,2
+104295,Application_207339253,Request incomplete files,30,2016-11-09 11:43:08,2016-11-09 11:43:08,Variant 4,4,Car,New credit,10000.0,0,-inf,2016-11-09,2016-11-09,2
+104296,Application_1920062674,Complete application,5,2016-10-25 19:47:46,2016-10-26 14:23:25,Variant 4,4,Car,New credit,29000.0,1116,7.017506142941256,2016-10-25,2016-10-26,4
+104297,Application_1920062674,Calling client,5,2016-10-26 14:23:25,2016-10-26 14:23:25,Variant 4,4,Car,New credit,29000.0,0,-inf,2016-10-26,2016-10-26,4
+104298,Application_1920062674,Validation,83,2016-11-02 14:45:45,2016-11-04 09:04:54,Variant 4,4,Car,New credit,29000.0,1100,7.003065458786462,2016-11-02,2016-11-04,4
+104299,Application_1920062674,Request incomplete files,83,2016-11-04 09:04:54,2016-11-04 09:04:54,Variant 4,4,Car,New credit,29000.0,0,-inf,2016-11-04,2016-11-04,4
+104300,Application_1785650204,Complete application,60,2016-10-25 17:01:46,2016-10-25 17:07:28,Variant 9,9,Existing loan takeover,New credit,0.0,6,1.791759469228055,2016-10-25,2016-10-25,1
+104301,Application_1785650204,Calling client,60,2016-10-25 17:07:28,2016-10-25 17:07:28,Variant 9,9,Existing loan takeover,New credit,0.0,0,-inf,2016-10-25,2016-10-25,1
+104302,Application_1785650204,Validation,123,2016-11-30 13:12:21,2016-11-30 13:16:10,Variant 9,9,Existing loan takeover,New credit,0.0,4,1.3862943611198906,2016-11-30,2016-11-30,1
+104303,Application_1785650204,Request incomplete files,123,2016-11-30 13:16:10,2016-11-30 13:16:10,Variant 9,9,Existing loan takeover,New credit,0.0,0,-inf,2016-11-30,2016-11-30,1
+104304,Application_1785650204,Validation,90,2016-11-30 20:47:15,2016-12-01 11:07:26,Variant 9,9,Existing loan takeover,New credit,0.0,861,6.7580945044277305,2016-11-30,2016-12-01,1
+104305,Application_1785650204,Request incomplete files,90,2016-12-01 11:07:26,2016-12-01 11:07:26,Variant 9,9,Existing loan takeover,New credit,0.0,0,-inf,2016-12-01,2016-12-01,1
+104306,Application_1785650204,Validation,63,2016-12-05 11:30:17,2016-12-05 11:30:17,Variant 9,9,Existing loan takeover,New credit,0.0,0,-inf,2016-12-05,2016-12-05,1
+104307,Application_1785650204,Request incomplete files,29,2016-12-06 10:49:43,2016-12-06 10:49:43,Variant 9,9,Existing loan takeover,New credit,0.0,0,-inf,2016-12-06,2016-12-06,1
+104308,Application_1293120092,Automatic initial assessment,26,2016-10-25 19:02:26,2016-10-25 19:04:28,Variant 7,7,Existing loan takeover,New credit,20000.0,3,1.0986122886681098,2016-10-25,2016-10-25,3
+104309,Application_1293120092,Complete application,26,2016-10-25 19:04:28,2016-10-25 19:04:28,Variant 7,7,Existing loan takeover,New credit,20000.0,0,-inf,2016-10-25,2016-10-25,3
+104310,Application_1293120092,Calling client,71,2016-10-26 09:21:46,2016-10-26 09:21:46,Variant 7,7,Existing loan takeover,New credit,20000.0,0,-inf,2016-10-26,2016-10-26,3
+104311,Application_1284230014,Complete application,66,2016-10-25 17:04:38,2016-10-25 17:20:49,Variant 4,4,Car,New credit,0.0,17,2.833213344056216,2016-10-25,2016-10-25,1
+104312,Application_1284230014,Calling client,66,2016-10-25 17:20:49,2016-10-25 17:20:49,Variant 4,4,Car,New credit,0.0,0,-inf,2016-10-25,2016-10-25,1
+104313,Application_1284230014,Validation,27,2016-11-01 12:52:03,2016-11-01 12:52:03,Variant 4,4,Car,New credit,0.0,0,-inf,2016-11-01,2016-11-01,1
+104314,Application_1284230014,Request incomplete files,30,2016-11-03 08:09:18,2016-11-03 08:09:18,Variant 4,4,Car,New credit,0.0,0,-inf,2016-11-03,2016-11-03,1
+104320,Application_522420767,Complete application,10,2016-10-25 17:25:40,2016-10-25 17:38:35,Variant 6,6,Home improvement,New credit,5000.0,13,2.5649493574615367,2016-10-25,2016-10-25,1
+104321,Application_522420767,Calling client,10,2016-10-25 17:38:35,2016-10-25 17:38:35,Variant 6,6,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104322,Application_522420767,Validation,126,2016-11-07 10:38:08,2016-11-07 10:39:00,Variant 6,6,Home improvement,New credit,5000.0,1,0.0,2016-11-07,2016-11-07,1
+104323,Application_522420767,Request incomplete files,126,2016-11-07 10:39:00,2016-11-07 10:39:00,Variant 6,6,Home improvement,New credit,5000.0,0,-inf,2016-11-07,2016-11-07,1
+104324,Application_522420767,Validation,93,2016-11-10 09:13:12,2016-11-14 11:16:04,Variant 6,6,Home improvement,New credit,5000.0,123,4.812184355372417,2016-11-10,2016-11-14,1
+104325,Application_522420767,Request incomplete files,93,2016-11-14 11:16:04,2016-11-14 11:16:04,Variant 6,6,Home improvement,New credit,5000.0,0,-inf,2016-11-14,2016-11-14,1
+104326,Application_564834372,Complete application,3,2016-10-25 17:27:03,2016-10-25 17:33:06,Variant 4,4,Home improvement,New credit,15000.0,7,1.9459101490553132,2016-10-25,2016-10-25,2
+104327,Application_564834372,Calling client,3,2016-10-25 17:33:06,2016-10-25 17:33:06,Variant 4,4,Home improvement,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+104328,Application_564834372,Validation,119,2016-11-01 09:38:18,2016-11-01 09:38:18,Variant 4,4,Home improvement,New credit,15000.0,0,-inf,2016-11-01,2016-11-01,2
+104329,Application_564834372,Request incomplete files,90,2016-11-03 11:21:11,2016-11-03 11:21:11,Variant 4,4,Home improvement,New credit,15000.0,0,-inf,2016-11-03,2016-11-03,2
+104338,Application_74864529,Complete application,79,2016-10-25 17:45:22,2016-10-25 17:45:22,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-10-25,2016-10-25,2
+104339,Application_74864529,Calling client,48,2016-10-26 12:38:38,2016-10-26 12:38:38,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-10-26,2016-10-26,2
+104340,Application_74864529,Validation,123,2016-10-31 13:16:43,2016-10-31 13:19:26,Variant 5,5,Car,New credit,15000.0,3,1.0986122886681098,2016-10-31,2016-10-31,2
+104341,Application_74864529,Request incomplete files,123,2016-10-31 13:19:26,2016-10-31 13:19:26,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-10-31,2016-10-31,2
+104342,Application_74864529,Validation,119,2016-11-01 11:16:20,2016-11-01 11:16:20,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-01,2016-11-01,2
+104343,Application_74864529,Request incomplete files,30,2016-11-03 12:33:59,2016-11-03 12:33:59,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-03,2016-11-03,2
+104344,Application_74864529,Validation,133,2016-11-05 12:04:09,2016-11-05 12:04:09,Variant 5,5,Car,New credit,15000.0,0,-inf,2016-11-05,2016-11-05,2
+104350,Application_1607880476,Complete application,10,2016-10-25 17:45:05,2016-10-25 18:01:41,Variant 6,6,Existing loan takeover,New credit,65000.0,17,2.833213344056216,2016-10-25,2016-10-25,9
+104351,Application_1607880476,Calling client,10,2016-10-25 18:01:41,2016-10-25 18:01:41,Variant 6,6,Existing loan takeover,New credit,65000.0,0,-inf,2016-10-25,2016-10-25,9
+104352,Application_1607880476,Validation,123,2016-11-04 11:36:54,2016-11-04 11:36:54,Variant 6,6,Existing loan takeover,New credit,65000.0,0,-inf,2016-11-04,2016-11-04,9
+104353,Application_1607880476,Request incomplete files,42,2016-11-09 14:56:21,2016-11-11 09:57:09,Variant 6,6,Existing loan takeover,New credit,65000.0,1141,7.039660349862076,2016-11-09,2016-11-11,9
+104354,Application_1607880476,Validation,15,2016-11-09 19:22:42,2016-11-09 19:22:42,Variant 6,6,Existing loan takeover,New credit,65000.0,0,-inf,2016-11-09,2016-11-09,9
+104355,Application_1607880476,Request incomplete files,83,2016-11-11 08:26:25,2016-11-11 08:26:25,Variant 6,6,Existing loan takeover,New credit,65000.0,0,-inf,2016-11-11,2016-11-11,9
+104377,Application_212002191,Complete application,44,2016-10-25 18:40:41,2016-10-25 18:57:25,Variant 4,4,Home improvement,New credit,12500.0,17,2.833213344056216,2016-10-25,2016-10-25,2
+104378,Application_212002191,Calling client,44,2016-10-25 18:57:25,2016-10-25 18:57:25,Variant 4,4,Home improvement,New credit,12500.0,0,-inf,2016-10-25,2016-10-25,2
+104379,Application_212002191,Validation,68,2016-11-15 10:39:16,2016-11-18 10:14:39,Variant 4,4,Home improvement,New credit,12500.0,1416,7.255591274253665,2016-11-15,2016-11-18,2
+104380,Application_212002191,Request incomplete files,68,2016-11-18 10:14:39,2016-11-18 10:14:39,Variant 4,4,Home improvement,New credit,12500.0,0,-inf,2016-11-18,2016-11-18,2
+104385,Application_1128308263,Automatic initial assessment,26,2016-10-25 20:15:43,2016-10-25 20:16:26,Variant 7,7,Car,New credit,22000.0,1,0.0,2016-10-25,2016-10-25,3
+104386,Application_1128308263,Complete application,79,2016-10-25 20:16:26,2016-10-25 21:15:05,Variant 7,7,Car,New credit,22000.0,59,4.07753744390572,2016-10-25,2016-10-25,3
+104387,Application_1128308263,Calling client,79,2016-10-25 21:15:05,2016-10-25 21:15:05,Variant 7,7,Car,New credit,22000.0,0,-inf,2016-10-25,2016-10-25,3
+104388,Application_905082437,Automatic initial assessment,26,2016-10-25 20:16:34,2016-10-25 20:17:00,Variant 7,7,Extra spending limit,New credit,7750.0,1,0.0,2016-10-25,2016-10-25,2
+104389,Application_905082437,Complete application,80,2016-10-25 20:17:00,2016-10-26 15:35:14,Variant 7,7,Extra spending limit,New credit,7750.0,1159,7.055312843339752,2016-10-25,2016-10-26,2
+104390,Application_905082437,Calling client,80,2016-10-26 15:35:14,2016-10-26 15:35:14,Variant 7,7,Extra spending limit,New credit,7750.0,0,-inf,2016-10-26,2016-10-26,2
+104404,Application_528406867,Complete application,26,2016-10-25 20:00:05,2016-10-25 20:06:12,Variant 6,6,Existing loan takeover,New credit,9000.0,7,1.9459101490553132,2016-10-25,2016-10-25,2
+104405,Application_528406867,Calling client,26,2016-10-25 20:06:12,2016-10-25 20:06:12,Variant 6,6,Existing loan takeover,New credit,9000.0,0,-inf,2016-10-25,2016-10-25,2
+104406,Application_528406867,Validation,68,2016-11-09 12:25:49,2016-11-24 07:20:56,Variant 6,6,Existing loan takeover,New credit,9000.0,1136,7.035268599281097,2016-11-09,2016-11-24,2
+104407,Application_528406867,Request incomplete files,2,2016-11-15 08:40:12,2016-12-12 09:19:17,Variant 6,6,Existing loan takeover,New credit,9000.0,40,3.6888794541139363,2016-11-15,2016-12-12,2
+104408,Application_528406867,Validation,133,2016-11-22 15:02:14,2016-11-22 15:02:14,Variant 6,6,Existing loan takeover,New credit,9000.0,0,-inf,2016-11-22,2016-11-22,2
+104409,Application_528406867,Request incomplete files,68,2016-11-24 07:20:56,2016-11-24 07:20:56,Variant 6,6,Existing loan takeover,New credit,9000.0,0,-inf,2016-11-24,2016-11-24,2
+104414,Application_1607153860,Automatic initial assessment,26,2016-10-25 20:47:19,2016-10-25 20:50:06,Variant 7,7,Home improvement,New credit,5000.0,3,1.0986122886681098,2016-10-25,2016-10-25,1
+104415,Application_1607153860,Complete application,26,2016-10-25 20:50:06,2016-10-25 20:50:06,Variant 7,7,Home improvement,New credit,5000.0,0,-inf,2016-10-25,2016-10-25,1
+104416,Application_1607153860,Calling client,3,2016-10-26 13:45:02,2016-10-26 13:45:02,Variant 7,7,Home improvement,New credit,5000.0,0,-inf,2016-10-26,2016-10-26,1
+104419,Application_717400110,Complete application,26,2016-10-25 20:35:13,2016-10-25 20:42:00,Variant 3,3,Car,New credit,10000.0,7,1.9459101490553132,2016-10-25,2016-10-25,2
+104420,Application_717400110,Calling client,26,2016-10-25 20:42:00,2016-10-25 20:42:00,Variant 3,3,Car,New credit,10000.0,0,-inf,2016-10-25,2016-10-25,2
+104421,Application_717400110,Validation,121,2016-11-07 10:19:01,2016-11-07 10:19:01,Variant 3,3,Car,New credit,10000.0,0,-inf,2016-11-07,2016-11-07,2
+104422,Application_717400110,Request incomplete files,93,2016-11-08 15:00:08,2016-11-08 15:00:08,Variant 3,3,Car,New credit,10000.0,0,-inf,2016-11-08,2016-11-08,2
+104423,Application_717400110,Validation,133,2016-11-08 20:38:11,2016-11-08 20:38:11,Variant 3,3,Car,New credit,10000.0,0,-inf,2016-11-08,2016-11-08,2
+104424,Application_1471430106,Complete application,10,2016-10-25 20:40:51,2016-10-25 20:44:02,Variant 4,4,Home improvement,New credit,53000.0,4,1.3862943611198906,2016-10-25,2016-10-25,8
+104425,Application_1471430106,Calling client,10,2016-10-25 20:44:02,2016-10-25 20:44:02,Variant 4,4,Home improvement,New credit,53000.0,0,-inf,2016-10-25,2016-10-25,8
+104426,Application_1471430106,Validation,119,2016-10-28 13:54:01,2016-10-28 13:54:01,Variant 4,4,Home improvement,New credit,53000.0,0,-inf,2016-10-28,2016-10-28,8
+104427,Application_1471430106,Request incomplete files,87,2016-11-01 14:27:14,2016-11-01 14:27:14,Variant 4,4,Home improvement,New credit,53000.0,0,-inf,2016-11-01,2016-11-01,8
+104438,Application_540373333,Complete application,36,2016-10-25 20:46:12,2016-10-25 20:52:50,Variant 9,9,Car,New credit,27500.0,7,1.9459101490553132,2016-10-25,2016-10-25,4
+104439,Application_540373333,Calling client,36,2016-10-25 20:52:50,2016-10-25 20:52:50,Variant 9,9,Car,New credit,27500.0,0,-inf,2016-10-25,2016-10-25,4
+104440,Application_540373333,Validation,113,2016-10-27 09:42:16,2016-10-27 09:42:18,Variant 9,9,Car,New credit,27500.0,1,0.0,2016-10-27,2016-10-27,4
+104441,Application_540373333,Request incomplete files,113,2016-10-27 09:42:18,2016-10-27 09:42:18,Variant 9,9,Car,New credit,27500.0,0,-inf,2016-10-27,2016-10-27,4
+104442,Application_540373333,Validation,119,2016-10-28 15:58:56,2016-10-28 15:58:56,Variant 9,9,Car,New credit,27500.0,0,-inf,2016-10-28,2016-10-28,4
+104443,Application_540373333,Request incomplete files,99,2016-11-01 16:37:48,2016-11-01 16:37:48,Variant 9,9,Car,New credit,27500.0,0,-inf,2016-11-01,2016-11-01,4
+104444,Application_540373333,Validation,118,2016-11-02 08:06:13,2016-11-02 08:06:13,Variant 9,9,Car,New credit,27500.0,0,-inf,2016-11-02,2016-11-02,4
+104445,Application_540373333,Request incomplete files,29,2016-11-02 16:50:40,2016-11-02 16:50:40,Variant 9,9,Car,New credit,27500.0,0,-inf,2016-11-02,2016-11-02,4
+104446,Application_359276048,Complete application,65,2016-10-25 20:51:51,2016-10-26 10:51:15,Variant 2,2,Home improvement,Limit raise,30000.0,840,6.733401891837359,2016-10-25,2016-10-26,4
+104447,Application_359276048,Calling client,65,2016-10-26 10:51:15,2016-10-26 10:51:15,Variant 2,2,Home improvement,Limit raise,30000.0,0,-inf,2016-10-26,2016-10-26,4
+104448,Application_359276048,Validation,107,2016-11-07 13:33:00,2016-11-07 13:33:00,Variant 2,2,Home improvement,Limit raise,30000.0,0,-inf,2016-11-07,2016-11-07,4

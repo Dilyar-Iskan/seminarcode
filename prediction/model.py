@@ -17,17 +17,19 @@ from keras.layers import LSTM
 from keras.layers import Dense
 from keras import Model
 from keras.models import load_model
-
+from keras.utils import plot_model 
 import time
 
 
 
 class net:
     def __init__(self):
-        pass
+        self.model = None
+        self.tau = None
+        self.running_time = None
 
     def train(self, X_train, X_train_ctx, y_train, regression, loss, n_epochs = 100,
-        normalize = False, y_normalize=False, tau = 1.0, dropout = 0.05, batch_size= 128, context=True, num_folds=10, model_name='predictor', checkpoint_dir='./checkpoints2/'):
+        normalize = False, y_normalize=False, tau = 1.0, dropout = 0.05, batch_size= 128, context=True, num_folds=10, model_name='predictor', checkpoint_dir='./checkpoints/'):
 
         """
             Constructor for the class implementing a Bayesian neural network
@@ -87,7 +89,7 @@ class net:
         inter = LSTM(30)(inter, training=True)
         inter = Dropout(dropout)(inter, training=True)
 
-        if context==True:
+        if context==True: #always true
             context_shape = X_train_ctx.shape
             auxiliary_input = Input(shape=(context_shape[1],), name='aux_input')
             aux_inter = Dropout(dropout)(auxiliary_input, training=True)
@@ -95,9 +97,9 @@ class net:
             inter = keras.layers.concatenate([inter, aux_inter])
             inter = Dropout(dropout)(inter, training=True)
 
-            if regression:
+            if regression: # for timestamp regression is true and loss is mae
                 outputs = Dense(y_train_normalized.shape[1], )(inter)
-            else:
+            else: # for next activity regression is false and loss is categorical_crossentropy
                 outputs = Dense(y_train_normalized.shape[1], activation='softmax')(inter)
             model = Model(inputs=[inputs,auxiliary_input], outputs=outputs)
 
@@ -187,3 +189,21 @@ class net:
         """
         # We are done!
         return MC_pred, MC_uncertainty
+    
+    # evaluate the model
+    def evaluate(self, X_test, y_test, X_test_ctx=None, context=True):
+        # use keras to evaluate the model
+        if context==True:
+            X_test_ctx = np.array(X_test_ctx, ndmin=2)
+            # specify the metrics to evaluate the model
+            metrics = ['accuracy', ]
+            # compile the model
+            self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=metrics)
+
+            scores = self.model.evaluate([X_test, X_test_ctx], y_test, verbose=0)
+        else:
+            scores = self.model.evaluate(X_test, y_test, verbose=0)
+        return scores
+
+    def plot(self, dir='./plots/', to_file='model.png'):
+        plot_model(self.model, to_file=dir+ to_file, show_shapes=True, show_layer_names=True)
