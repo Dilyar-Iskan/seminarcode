@@ -1,0 +1,15 @@
+Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_computation_time 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-07-04.csv, 295, 2.4644160583941606, 5388, 38.862629890441895 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-10-31.csv, 205, 2.6171224732461353, 4388, 31.051280975341797 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-06-06.csv, 194, 2.923076923076923, 4863, 30.603513956069946 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-06-22.csv, 194, 1.2007434944237918, 1935, 29.62183976173401 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-09-13.csv, 187, 2.720647773279352, 4013, 27.75196123123169 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-08-29.csv, 184, 2.4926289926289926, 4060, 29.80703353881836 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-10-25.csv, 181, 3.0069252077562325, 4326, 27.038286447525024 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-07-04.csv, 295, 2.4644160583941606, 5388, 39.11518907546997 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-10-31.csv, 205, 2.6171224732461353, 4400, 31.097620010375977 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-06-06.csv, 194, 2.923076923076923, 4852, 30.0027015209198 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-06-22.csv, 194, 1.2007434944237918, 1935, 29.99999761581421 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-09-13.csv, 187, 2.720647773279352, 4032, 28.631661415100098 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-08-29.csv, 184, 2.4926289926289926, 4051, 30.200302124023438 
+./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-10-25.csv, 181, 3.0069252077562325, 4336, 27.472856998443604 
