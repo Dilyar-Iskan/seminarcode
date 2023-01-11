@@ -191,18 +191,19 @@ class net:
         return MC_pred, MC_uncertainty
     
     # evaluate the model
-    def evaluate(self, X_test, y_test, X_test_ctx=None, context=True):
+    def evaluate(self, X_test, X_test_ctx, y_test, loss,context=True):
         # use keras to evaluate the model
         if context==True:
             X_test_ctx = np.array(X_test_ctx, ndmin=2)
             # specify the metrics to evaluate the model
-            metrics = ['accuracy', ]
+            metrics = ['accuracy', 'mse', 'mae']
             # compile the model
-            self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=metrics)
+            self.model.compile(loss=loss, optimizer='adam', metrics=metrics)
 
-            scores = self.model.evaluate([X_test, X_test_ctx], y_test, verbose=0)
+            scores = self.model.evaluate([X_test, X_test_ctx], y_test)
         else:
             scores = self.model.evaluate(X_test, y_test, verbose=0)
+        print(scores)
         return scores
 
     def plot(self, dir='./plots/', to_file='model.png'):

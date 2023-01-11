@@ -21,6 +21,7 @@ f1_value = 0.0
 training_time_seconds = list()
 
 args = ""
+
 def load_model(checkpoint_dir, model_name):
     """load prediction model
 
@@ -33,19 +34,28 @@ def load_model(checkpoint_dir, model_name):
     return model
 
 if __name__ == '__main__':
+    args = config.load()
     
+    if args.task == 'next_activity':
+        loss = 'categorical_crossentropy'
+        regression = False
+    elif args.task == 'next_timestamp':
+        loss = 'mae'
+        regression = True
+
     # test the model*(real)
-    checkpoint_dir = './prediction/checkpoints/'
+    checkpoint_dir = './checkpoints/'
     #modelname_next_act = 'modi_BPI_2012_dropna_filter_act.csv' + 'next_activity'
     modelname_next_time = 'modi_BPI_2012_dropna_filter_act.csv' + 'next_timestamp'
 
     # load prediction model
     #model_next_act = load_model(checkpoint_dir, modelname_next_act)
     model_next_time = load_model(checkpoint_dir, modelname_next_time)
-    
+    contextual_info = args.contextual_info
+
 
     # (CHANGED)
-    est_dir = './prediction/estimation/'
+    est_dir = './estimation/'
     estname_next_time = 'modi_BPI_2012_dropna_filter_act.csv' + 'next_timestamp'
     # load estimation model
     est_next_time = load_model(est_dir, estname_next_time)
@@ -53,9 +63,9 @@ if __name__ == '__main__':
     # load the data 
 
     project_root = os.path.abspath(os.path.join(os.getcwd(), '..'))
-
-    filename = os.path.join(project_root, args.test_dir, args.test_set ) 
-    model_name = args.test_set + args.task
+    
+    filename = os.path.join(project_root, args.data_dir, args.data_set ) 
+    model_name = args.data_set + args.task
 
     # load data
     FG = FeatureGenerator()
@@ -64,7 +74,18 @@ if __name__ == '__main__':
     test_df = df
     test_df = FG.order_csv_time(test_df)
     test_df = FG.queue_level(test_df)
-    test_df.to_csv('./test_data2.csv')
+    #test_df.to_csv('./test_data2.csv')
     state_list = FG.get_states(test_df)
     test_X, test_Y_Event, test_Y_Time = FG.one_hot_encode_history(test_df, args.checkpoint_dir+args.test_set)
+    print('test_X shape:', test_X.shape)
+    print('test_Y_Time shape:', test_Y_Time.shape)
+    print('test_Y_Event shape:', test_Y_Event.shape)
 
+    if contextual_info:
+        test_context_X = FG.generate_context_feature(test_df,state_list)
+        print('train_context_X shape:', test_context_X.shape)
+        model = net()
+        if regression:
+            	
+            scores = model_next_time.evaluate(test_X, test_context_X, test_Y_Time, loss)
+            print('Test loss:', scores)

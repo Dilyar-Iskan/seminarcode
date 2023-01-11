@@ -43,8 +43,9 @@ def load():
     parser.add_argument('--data_dir', default="sample_data/real_Dilyar/")
     parser.add_argument('--checkpoint_dir', default="./estimation/")
     """
-    parser.add_argument('--test_set', default="modi_assignment_filtered_test.csv")
-    parser.add_argument('--test_dir', default="sample_data/real_Dilyar/")
+    #parser.add_argument('--test_set', default="modi_assignment_filtered_test.csv")
+    parser.add_argument('--test_set', default="modi_assignment_filtered_test_2016-02-01.csv")
+    parser.add_argument('--test_dir', default="sample_data/real_Dilyar/tests/")
     
 
     args = parser.parse_args()
