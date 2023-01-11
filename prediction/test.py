@@ -76,7 +76,7 @@ if __name__ == '__main__':
     test_df = FG.queue_level(test_df)
     #test_df.to_csv('./test_data2.csv')
     state_list = FG.get_states(test_df)
-    test_X, test_Y_Event, test_Y_Time = FG.one_hot_encode_history(test_df, args.checkpoint_dir+args.test_set)
+    test_X, test_Y_Event, test_Y_Time = FG.one_hot_encode_history(test_df, args.checkpoint_dir+args.data_set)
     print('test_X shape:', test_X.shape)
     print('test_Y_Time shape:', test_Y_Time.shape)
     print('test_Y_Event shape:', test_Y_Event.shape)

@@ -19,7 +19,7 @@ from keras import Model
 from keras.models import load_model
 from keras.utils import plot_model 
 import time
-
+import tensorflow as tf 
 
 
 class net:
@@ -191,12 +191,15 @@ class net:
         return MC_pred, MC_uncertainty
     
     # evaluate the model
-    def evaluate(self, X_test, X_test_ctx, y_test, loss,context=True):
+    def evaluate(self, X_test, X_test_ctx, y_test, loss,regression, context=True):
         # use keras to evaluate the model
         if context==True:
             X_test_ctx = np.array(X_test_ctx, ndmin=2)
             # specify the metrics to evaluate the model
-            metrics = ['accuracy', 'mse', 'mae']
+            if regression == True:
+                metrics = ['accuracy', 'mse', 'mae']
+            else:
+                metrics = ['accuracy', tf.keras.metrics.CategoricalAccuracy() ,tf.keras.metrics.CategoricalCrossentropy(),tf.keras.metrics.Precision(thresholds=0), tf.keras.metrics.Recall(thresholds=0) ]
             # compile the model
             self.model.compile(loss=loss, optimizer='adam', metrics=metrics)
 
