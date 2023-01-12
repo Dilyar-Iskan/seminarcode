@@ -199,7 +199,7 @@ class net:
             if regression == True:
                 metrics = ['accuracy', 'mse', 'mae']
             else:
-                metrics = ["categorical_accuracy" ,'categorical_crossentropy', ]
+                metrics = ["categorical_accuracy" ,'categorical_crossentropy' ]
             # compile the model
             self.model.compile(loss=loss, optimizer='adam', metrics=metrics)
 
