@@ -6,6 +6,3 @@ test_path, alpha, beta, total_weighted_sum, total_computation_time, total_pred_t
 ./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-09-13.csv, 1.0, 1.0, 3856, 1096.211725473404, 1088.85968375206, 7.352041721343994, 0.0% 
 ./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-08-29.csv, 1.0, 1.0, 3881, 1106.8466453552246, 1099.4067556858063, 7.439889669418335, 0.0% 
 ./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-10-25.csv, 1.0, 1.0, 4121, 1063.3167653083801, 1055.8993997573853, 7.417365550994873, 0.0% 
-./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-02-01.csv, 1.0, 1.0, 4730, 968.1400907039642, 960.9640500545502, 7.1760406494140625, 0.0% 
-./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-02-23.csv, 1.0, 1.0, 3634, 972.4588315486908, 965.3947365283966, 7.0640950202941895, 0.0% 
-./sample_data/real_Dilyar/tests/modi_assignment_filtered_test_2016-09-08.csv, 1.0, 1.0, 1672, 913.8741705417633, 906.6200788021088, 7.254091739654541, 0.0% 

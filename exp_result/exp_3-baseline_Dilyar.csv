@@ -13,4 +13,3 @@ Baseline test_path real, num_cases, avg_weight, total_weighted_sum, total_comput
 ./sample_data/real/modi_BPI_2012_2012-03-12.csv, 95, 5.832207207207207, 1702, 8.50979995727539 
 ./sample_data/real/modi_BPI_2012_2012-03-13.csv, 105, 5.431599229287091, 1833, 9.05776333808899 
 ./sample_data/real/modi_BPI_2012_2012-03-14.csv, 121, 5.569939183318853, 2239, 10.165411472320557 
-./sample_data/real/modi_BPI_2012_2012-03-15.csv, 1, 10.0, 20, 3.7361667156219482 
