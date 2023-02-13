@@ -52,7 +52,7 @@ The code provided in this repository can be readily used to optimize resource sc
 
 # Releated Notebooks for the Seminar: 
 
-- The preprocessing of the log BPIC2017 is in the notebook `./visualize/preprocessing.ipynb`.
+- The preprocessing of the log BPIC2017 is in the notebook `./sample_data/real_Dilyar/preprocess.ipynb`.
 
 - The evaluation of the prediction models can be reproduced by running the notebook `./prediction/test.ipynb`.
 
