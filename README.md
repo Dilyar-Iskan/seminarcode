@@ -38,7 +38,7 @@ The code provided in this repository can be readily used to optimize resource sc
   - Phase 2 of our method (prediction model construction) is implemented in optimizer/suggested.py, while the baseline method is implemented in optimizer/baseline.py
 
 
-  ### Environment:
+  ### Create an Environment:
   
   - conda create env -n seminar python=3.6
   - conda activate seminar
@@ -50,5 +50,19 @@ The code provided in this repository can be readily used to optimize resource sc
   - cd ..
   - cd seminarcode
 
-# env: sem6clone > sem6 
+# Releated Notebooks for the Seminar: 
+
+- The preprocessing of the log BPIC2017 is in the notebook "./visualize/preprocessing.ipynb".
+
+- The evaluation of the prediction models can be reproduced by running the notebook "./prediction/test.ipynb".
+
+- The plots for the paper are in the folder "plots" that can be reproduced by running the notebook "./visualize/plots.ipynb".
+
+- The results of running the experiments are in the folder "exp_results" that can be reproduced by running the bash scripts in the root.
+
+
+
+
+
+
   
