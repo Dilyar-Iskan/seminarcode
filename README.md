@@ -60,6 +60,7 @@ The code provided in this repository can be readily used to optimize resource sc
 
 - The results of running the experiments are in the folder `./exp_results` that can be reproduced by running the bash scripts in the root.
 
+- Finally, the notebook `./divergence.ipynb` contains the points of divergence between the paper and the code from Park et al.
 
 
 
