@@ -52,13 +52,13 @@ The code provided in this repository can be readily used to optimize resource sc
 
 # Releated Notebooks for the Seminar: 
 
-- The preprocessing of the log BPIC2017 is in the notebook "./visualize/preprocessing.ipynb".
+- The preprocessing of the log BPIC2017 is in the notebook `./visualize/preprocessing.ipynb`.
 
-- The evaluation of the prediction models can be reproduced by running the notebook "./prediction/test.ipynb".
+- The evaluation of the prediction models can be reproduced by running the notebook `./prediction/test.ipynb`.
 
-- The plots for the paper are in the folder "plots" that can be reproduced by running the notebook "./visualize/plots.ipynb".
+- The plots for the paper are in the folder `./plots` that can be reproduced by running the notebook `./visualize/plots.ipynb`.
 
-- The results of running the experiments are in the folder "exp_results" that can be reproduced by running the bash scripts in the root.
+- The results of running the experiments are in the folder `./exp_results` that can be reproduced by running the bash scripts in the root.
 
 
 
